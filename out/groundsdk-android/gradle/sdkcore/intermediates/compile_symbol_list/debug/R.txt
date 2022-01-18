@@ -1,0 +1,2 @@
+int integer arsdk_debug_usb_bridge_port 0x0
+int string arsdk_debug_usb_bridge_address 0x0

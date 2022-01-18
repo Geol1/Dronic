@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/res/merged/release/xml/network_security_config.xml",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/res/merged/release/xml/gsdk_usb_rc_filter.xml",
+        "source": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/packaged_res/release/xml/gsdk_usb_rc_filter.xml"
+    }
+]

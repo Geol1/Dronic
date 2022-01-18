@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="blackbox_buffer_capacity">60</integer>
+    <integer name="ephemeris_download_interval">48</integer>
+    <integer name="ephemeris_validity_period">96</integer>
+    <string name="ublox_api_token">oVx4Rd6fVUeYzHfSWtSapA</string>
+    <string name="ublox_ephemeris_backup_server">
+        https://offline-live2.services.u-blox.com/GetOfflineData.ashx?token=%s;gnss=gps,glo;period=1;resolution=1
+    </string>
+    <string name="ublox_ephemeris_main_server">
+        https://offline-live1.services.u-blox.com/GetOfflineData.ashx?token=%s;gnss=gps,glo;period=1;resolution=1
+    </string>
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     Copyright (C) 2019 Parrot Drones SAS
+  ~
+  ~     Redistribution and use in source and binary forms, with or without
+  ~     modification, are permitted provided that the following conditions
+  ~     are met:
+  ~     * Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~     * Redistributions in binary form must reproduce the above copyright
+  ~       notice, this list of conditions and the following disclaimer in
+  ~       the documentation and/or other materials provided with the
+  ~       distribution.
+  ~     * Neither the name of the Parrot Company nor the names
+  ~       of its contributors may be used to endorse or promote products
+  ~       derived from this software without specific prior written
+  ~       permission.
+  ~
+  ~     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  ~     "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  ~     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+  ~     FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+  ~     PARROT COMPANY BE LIABLE FOR ANY DIRECT, INDIRECT,
+  ~     INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+  ~     BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+  ~     OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+  ~     AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  ~     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+  ~     OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+  ~     SUCH DAMAGE.
+  ~
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parrot.drone.groundsdkdemo"
+    android:versionCode="1"
+    android:versionName="0.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.barometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.DeviceListActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.info.FacilitiesInfoActivity"
+            android:label="@string/title_activity_facilities"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.info.DroneInfoActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.info.RCInfoActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.ManualCopterSettingsActivity"
+            android:label="@string/title_activity_manual_copter_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.Magnetometer3StepCalibrationActivity"
+            android:label="@string/title_activity_magnetometer_calibration"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.Magnetometer1StepCalibrationActivity"
+            android:label="@string/title_activity_magnetometer_calibration"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.ReturnHomeSettingsActivity"
+            android:label="@string/title_activity_return_home_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.hud.CopterHudActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.DroneFinderActivity"
+            android:label="@string/title_activity_drone_finder"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.VideoStreamActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.ThermalStreamActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadSettingsActivity"
+            android:label="@string/title_activity_sc2_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity"
+            android:label="@string/title_activity_sc2_grab"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadMappingsActivity"
+            android:label="@string/title_activity_sc2_mapping"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadAxesSetupActivity"
+            android:label="@string/title_activity_sc2_axes_setup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.CopilotSettingsActivity"
+            android:label="@string/title_activity_copilot"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.PilotingControlSettingsActivity"
+            android:label="@string/title_activity_piloting_control"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity"
+            android:label="@string/title_activity_media_browser"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.DebugSettingsActivity"
+            android:label="@string/title_activity_debug_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.FlightPlanSettingsActivity"
+            android:label="@string/title_activity_flight_plan_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.edit.GuidedEditActivity"
+            android:label="@string/title_activity_guided_edit"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.edit.PointOfInterestEditActivity"
+            android:label="@string/title_activity_poi_edit"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.FollowMeSettingsActivity"
+            android:label="@string/title_activity_follow_me_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.WifiAccessPointSettingsActivity"
+            android:label="@string/title_activity_wifi_ap_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.TargetTrackerSettingsActivity"
+            android:label="@string/title_activity_target_tracker_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.CameraSettingsActivity"
+            android:label="@string/title_activity_camera_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity"
+            android:label="@string/title_activity_gimbal_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.GimbalOffsetsCorrectionActivity"
+            android:label="@string/title_activity_gimbal_offsets_correction"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.GimbalCalibrationActivity"
+            android:label="@string/title_activity_gimbal_calibration"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.AntiFlickerSettingsActivity"
+            android:label="@string/title_activity_antiflicker_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.GeofenceSettingsActivity"
+            android:label="@string/title_activity_geofence_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.LedsSettingsActivity"
+            android:label="@string/title_activity_leds_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.facility.FirmwareManagerActivity"
+            android:label="@string/title_activity_firmware_manager"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.PreciseHomeSettingsActivity"
+            android:label="@string/title_activity_precise_home_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity"
+            android:label="@string/title_activity_thermal_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.facility.UserAccountActivity"
+            android:label="@string/title_activity_user_account"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.peripheral.MediaReplayActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.hud.HmdActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name="com.parrot.drone.groundsdkdemo.settings.DriSettingsActivity"
+            android:label="@string/title_activity_dri_settings"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/gsdkdemo_google_geo_api_key" />
+        <meta-data
+            android:name="com.parrot.drone.groundsdk.engine.arsdkengine"
+            android:value="com.parrot.drone.groundsdk.arsdkengine.ArsdkEngine" />
+
+        <service android:name="com.parrot.drone.groundsdk.internal.DumpSys$Service" />
+
+        <activity
+            android:name="com.parrot.drone.groundsdk.internal.RcAccessoryBootstrapActivity"
+            android:enabled="@bool/gsdk_rc_accessory_bootstrap_activity_enabled"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/gsdk_usb_rc_filter" />
+        </activity> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

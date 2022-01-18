@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="arsdk_debug_usb_bridge_port">13579</integer>
+    <string name="arsdk_debug_usb_bridge_address"/>
+</resources>

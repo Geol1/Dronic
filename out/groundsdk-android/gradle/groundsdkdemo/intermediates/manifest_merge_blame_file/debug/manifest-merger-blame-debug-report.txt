@@ -1,0 +1,517 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~     Copyright (C) 2019 Parrot Drones SAS
+4  ~
+5  ~     Redistribution and use in source and binary forms, with or without
+6  ~     modification, are permitted provided that the following conditions
+7  ~     are met:
+8  ~     * Redistributions of source code must retain the above copyright
+9  ~       notice, this list of conditions and the following disclaimer.
+10  ~     * Redistributions in binary form must reproduce the above copyright
+11  ~       notice, this list of conditions and the following disclaimer in
+12  ~       the documentation and/or other materials provided with the
+13  ~       distribution.
+14  ~     * Neither the name of the Parrot Company nor the names
+15  ~       of its contributors may be used to endorse or promote products
+16  ~       derived from this software without specific prior written
+17  ~       permission.
+18  ~
+19  ~     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+20  ~     "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+21  ~     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+22  ~     FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+23  ~     PARROT COMPANY BE LIABLE FOR ANY DIRECT, INDIRECT,
+24  ~     INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+25  ~     BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+26  ~     OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+27  ~     AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+28  ~     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+29  ~     OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+30  ~     SUCH DAMAGE.
+31  ~
+32-->
+33<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+34    package="com.parrot.drone.groundsdkdemo"
+35    android:versionCode="1"
+36    android:versionName="0.0.0" >
+37
+38    <uses-sdk
+39        android:minSdkVersion="24"
+39-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+40        android:targetSdkVersion="29" />
+40-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+41
+42    <uses-permission android:name="android.permission.CAMERA" />
+42-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:40:5-64
+42-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:40:22-62
+43    <uses-permission android:name="android.permission.INTERNET" />
+43-->[:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
+43-->[:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:43:22-64
+44
+45    <uses-feature
+45-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-45:36
+46        android:name="android.hardware.sensor.barometer"
+46-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-57
+47        android:required="false" />
+47-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-33
+48    <uses-feature
+48-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-48:36
+49        android:name="android.hardware.location"
+49-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-49
+50        android:required="false" />
+50-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-33
+51    <uses-feature
+51-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-51:36
+52        android:name="android.hardware.location.gps"
+52-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-53
+53        android:required="false" />
+53-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-33
+54    <uses-feature
+54-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:52:5-54:35
+55        android:glEsVersion="0x00030000"
+55-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-41
+56        android:required="true" />
+56-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:54:9-32
+57
+58    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+58-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:56:5-79
+58-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:56:22-76
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:57:5-79
+59-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:57:22-76
+60    <uses-permission android:name="android.permission.BLUETOOTH" />
+60-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:44:5-68
+60-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:44:22-65
+61    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+61-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-74
+61-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:45:22-71
+62    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+62-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-81
+62-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:46:22-78
+63    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+63-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:48:5-76
+63-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:48:22-73
+64    <uses-permission android:name="android.permission.WAKE_LOCK" />
+64-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-68
+64-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:49:22-65
+65    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+65-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:50:5-86
+65-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:50:22-83
+66    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+66-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:51:5-81
+66-->[:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:51:22-78
+67
+68    <application
+68-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:42:5-230:19
+69        android:allowBackup="false"
+69-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:44:9-36
+70        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+70-->[androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+71        android:debuggable="true"
+72        android:extractNativeLibs="false"
+72-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:45:9-42
+73        android:icon="@mipmap/ic_launcher"
+73-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:46:9-43
+74        android:label="@string/app_name"
+74-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:47:9-41
+75        android:networkSecurityConfig="@xml/network_security_config"
+75-->[:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-69
+76        android:requestLegacyExternalStorage="true"
+76-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:43:9-52
+77        android:supportsRtl="true"
+77-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:48:9-35
+78        android:testOnly="true"
+79        android:theme="@style/Theme.AppCompat" >
+79-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:49:9-47
+80        <activity
+80-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:52:9-60:20
+81            android:name="com.parrot.drone.groundsdkdemo.DeviceListActivity"
+81-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:53:13-47
+82            android:launchMode="singleTop"
+82-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:54:13-43
+83            android:theme="@style/AppTheme.NoActionBar" >
+83-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:55:13-56
+84            <intent-filter>
+84-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:56:13-59:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:57:17-68
+85-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:57:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:58:17-76
+87-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:58:27-74
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:62:9-65:46
+91            android:name="com.parrot.drone.groundsdkdemo.info.FacilitiesInfoActivity"
+91-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:63:13-56
+92            android:label="@string/title_activity_facilities"
+92-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:64:13-62
+93            android:theme="@style/AppTheme" />
+93-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:65:13-44
+94        <activity
+94-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:66:9-68:46
+95            android:name="com.parrot.drone.groundsdkdemo.info.DroneInfoActivity"
+95-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:67:13-51
+96            android:theme="@style/AppTheme" />
+96-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:68:13-44
+97        <activity
+97-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:69:9-71:46
+98            android:name="com.parrot.drone.groundsdkdemo.info.RCInfoActivity"
+98-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:70:13-48
+99            android:theme="@style/AppTheme" />
+99-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:71:13-44
+100        <activity
+100-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:72:9-75:46
+101            android:name="com.parrot.drone.groundsdkdemo.settings.ManualCopterSettingsActivity"
+101-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:73:13-66
+102            android:label="@string/title_activity_manual_copter_settings"
+102-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:74:13-74
+103            android:theme="@style/AppTheme" />
+103-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:75:13-44
+104        <activity
+104-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:76:9-79:46
+105            android:name="com.parrot.drone.groundsdkdemo.peripheral.Magnetometer3StepCalibrationActivity"
+105-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:77:13-76
+106            android:label="@string/title_activity_magnetometer_calibration"
+106-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:78:13-76
+107            android:theme="@style/AppTheme" />
+107-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:79:13-44
+108        <activity
+108-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:80:9-83:46
+109            android:name="com.parrot.drone.groundsdkdemo.peripheral.Magnetometer1StepCalibrationActivity"
+109-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:81:13-76
+110            android:label="@string/title_activity_magnetometer_calibration"
+110-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:82:13-76
+111            android:theme="@style/AppTheme" />
+111-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:83:13-44
+112        <activity
+112-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:84:9-87:46
+113            android:name="com.parrot.drone.groundsdkdemo.settings.ReturnHomeSettingsActivity"
+113-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:85:13-64
+114            android:label="@string/title_activity_return_home_settings"
+114-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:86:13-72
+115            android:theme="@style/AppTheme" />
+115-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:87:13-44
+116        <activity
+116-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:88:9-91:58
+117            android:name="com.parrot.drone.groundsdkdemo.hud.CopterHudActivity"
+117-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:89:13-50
+118            android:screenOrientation="landscape"
+118-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:90:13-50
+119            android:theme="@style/AppTheme.NoActionBar" />
+119-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:91:13-56
+120        <activity
+120-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:92:9-95:46
+121            android:name="com.parrot.drone.groundsdkdemo.peripheral.DroneFinderActivity"
+121-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:93:13-59
+122            android:label="@string/title_activity_drone_finder"
+122-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:94:13-64
+123            android:theme="@style/AppTheme" />
+123-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:95:13-44
+124        <activity
+124-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:96:9-98:58
+125            android:name="com.parrot.drone.groundsdkdemo.peripheral.VideoStreamActivity"
+125-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:97:13-59
+126            android:theme="@style/AppTheme.NoActionBar" />
+126-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:98:13-56
+127        <activity
+127-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:99:9-101:58
+128            android:name="com.parrot.drone.groundsdkdemo.peripheral.ThermalStreamActivity"
+128-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:100:13-61
+129            android:theme="@style/AppTheme.NoActionBar" />
+129-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:101:13-56
+130        <activity
+130-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:102:9-105:46
+131            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadSettingsActivity"
+131-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:103:13-71
+132            android:label="@string/title_activity_sc2_settings"
+132-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:104:13-64
+133            android:theme="@style/AppTheme" />
+133-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:105:13-44
+134        <activity
+134-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:106:9-109:46
+135            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity"
+135-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:107:13-67
+136            android:label="@string/title_activity_sc2_grab"
+136-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:108:13-60
+137            android:theme="@style/AppTheme" />
+137-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:109:13-44
+138        <activity
+138-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:110:9-113:58
+139            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadMappingsActivity"
+139-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:111:13-71
+140            android:label="@string/title_activity_sc2_mapping"
+140-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:112:13-63
+141            android:theme="@style/AppTheme.NoActionBar" />
+141-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:113:13-56
+142        <activity
+142-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:114:9-116:46
+143            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity"
+143-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:115:13-74
+144            android:theme="@style/AppTheme" />
+144-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:116:13-44
+145        <activity
+145-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:117:9-120:58
+146            android:name="com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadAxesSetupActivity"
+146-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:118:13-72
+147            android:label="@string/title_activity_sc2_axes_setup"
+147-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:119:13-66
+148            android:theme="@style/AppTheme.NoActionBar" />
+148-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:120:13-56
+149        <activity
+149-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:121:9-124:46
+150            android:name="com.parrot.drone.groundsdkdemo.settings.CopilotSettingsActivity"
+150-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:122:13-61
+151            android:label="@string/title_activity_copilot"
+151-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:123:13-59
+152            android:theme="@style/AppTheme" />
+152-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:124:13-44
+153        <activity
+153-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:125:9-128:46
+154            android:name="com.parrot.drone.groundsdkdemo.settings.PilotingControlSettingsActivity"
+154-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:126:13-69
+155            android:label="@string/title_activity_piloting_control"
+155-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:127:13-68
+156            android:theme="@style/AppTheme" />
+156-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:128:13-44
+157        <activity
+157-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:129:9-132:46
+158            android:name="com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity"
+158-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:130:13-65
+159            android:label="@string/title_activity_media_browser"
+159-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:131:13-65
+160            android:theme="@style/AppTheme" />
+160-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:132:13-44
+161        <activity
+161-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:133:9-136:46
+162            android:name="com.parrot.drone.groundsdkdemo.peripheral.DebugSettingsActivity"
+162-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:134:13-61
+163            android:label="@string/title_activity_debug_settings"
+163-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:135:13-66
+164            android:theme="@style/AppTheme" />
+164-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:136:13-44
+165        <activity
+165-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:137:9-140:46
+166            android:name="com.parrot.drone.groundsdkdemo.settings.FlightPlanSettingsActivity"
+166-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:138:13-64
+167            android:label="@string/title_activity_flight_plan_settings"
+167-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:139:13-72
+168            android:theme="@style/AppTheme" />
+168-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:140:13-44
+169        <activity
+169-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:141:9-144:46
+170            android:name="com.parrot.drone.groundsdkdemo.edit.GuidedEditActivity"
+170-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:142:13-52
+171            android:label="@string/title_activity_guided_edit"
+171-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:143:13-63
+172            android:theme="@style/AppTheme" />
+172-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:144:13-44
+173        <activity
+173-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:145:9-148:46
+174            android:name="com.parrot.drone.groundsdkdemo.edit.PointOfInterestEditActivity"
+174-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:146:13-61
+175            android:label="@string/title_activity_poi_edit"
+175-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:147:13-60
+176            android:theme="@style/AppTheme" />
+176-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:148:13-44
+177        <activity
+177-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:149:9-152:46
+178            android:name="com.parrot.drone.groundsdkdemo.settings.FollowMeSettingsActivity"
+178-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:150:13-62
+179            android:label="@string/title_activity_follow_me_settings"
+179-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:151:13-70
+180            android:theme="@style/AppTheme" />
+180-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:152:13-44
+181        <activity
+181-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:153:9-156:46
+182            android:name="com.parrot.drone.groundsdkdemo.settings.WifiAccessPointSettingsActivity"
+182-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:154:13-69
+183            android:label="@string/title_activity_wifi_ap_settings"
+183-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:155:13-68
+184            android:theme="@style/AppTheme" />
+184-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:156:13-44
+185        <activity
+185-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:157:9-160:46
+186            android:name="com.parrot.drone.groundsdkdemo.settings.TargetTrackerSettingsActivity"
+186-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:158:13-67
+187            android:label="@string/title_activity_target_tracker_settings"
+187-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:159:13-75
+188            android:theme="@style/AppTheme" />
+188-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:160:13-44
+189        <activity
+189-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:162:9-165:46
+190            android:name="com.parrot.drone.groundsdkdemo.settings.CameraSettingsActivity"
+190-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:163:13-60
+191            android:label="@string/title_activity_camera_settings"
+191-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:164:13-67
+192            android:theme="@style/AppTheme" />
+192-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:165:13-44
+193        <activity
+193-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:166:9-169:46
+194            android:name="com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity"
+194-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:167:13-60
+195            android:label="@string/title_activity_gimbal_settings"
+195-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:168:13-67
+196            android:theme="@style/AppTheme" />
+196-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:169:13-44
+197        <activity
+197-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:170:9-173:46
+198            android:name="com.parrot.drone.groundsdkdemo.settings.GimbalOffsetsCorrectionActivity"
+198-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:171:13-69
+199            android:label="@string/title_activity_gimbal_offsets_correction"
+199-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:172:13-77
+200            android:theme="@style/AppTheme" />
+200-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:173:13-44
+201        <activity
+201-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:174:9-177:46
+202            android:name="com.parrot.drone.groundsdkdemo.peripheral.GimbalCalibrationActivity"
+202-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:175:13-65
+203            android:label="@string/title_activity_gimbal_calibration"
+203-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:176:13-70
+204            android:theme="@style/AppTheme" />
+204-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:177:13-44
+205        <activity
+205-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:179:9-182:46
+206            android:name="com.parrot.drone.groundsdkdemo.settings.AntiFlickerSettingsActivity"
+206-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:180:13-65
+207            android:label="@string/title_activity_antiflicker_settings"
+207-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:181:13-72
+208            android:theme="@style/AppTheme" />
+208-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:182:13-44
+209        <activity
+209-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:184:9-187:46
+210            android:name="com.parrot.drone.groundsdkdemo.settings.GeofenceSettingsActivity"
+210-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:185:13-62
+211            android:label="@string/title_activity_geofence_settings"
+211-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:186:13-69
+212            android:theme="@style/AppTheme" />
+212-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:187:13-44
+213        <activity
+213-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:189:9-192:46
+214            android:name="com.parrot.drone.groundsdkdemo.settings.LedsSettingsActivity"
+214-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:190:13-58
+215            android:label="@string/title_activity_leds_settings"
+215-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:191:13-65
+216            android:theme="@style/AppTheme" />
+216-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:192:13-44
+217        <activity
+217-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:194:9-197:46
+218            android:name="com.parrot.drone.groundsdkdemo.facility.FirmwareManagerActivity"
+218-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:195:13-61
+219            android:label="@string/title_activity_firmware_manager"
+219-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:196:13-68
+220            android:theme="@style/AppTheme" />
+220-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:197:13-44
+221        <activity
+221-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:199:9-202:46
+222            android:name="com.parrot.drone.groundsdkdemo.settings.PreciseHomeSettingsActivity"
+222-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:200:13-65
+223            android:label="@string/title_activity_precise_home_settings"
+223-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:201:13-73
+224            android:theme="@style/AppTheme" />
+224-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:202:13-44
+225        <activity
+225-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:204:9-207:46
+226            android:name="com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity"
+226-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:205:13-61
+227            android:label="@string/title_activity_thermal_settings"
+227-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:206:13-68
+228            android:theme="@style/AppTheme" />
+228-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:207:13-44
+229        <activity
+229-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:209:9-212:46
+230            android:name="com.parrot.drone.groundsdkdemo.facility.UserAccountActivity"
+230-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:210:13-57
+231            android:label="@string/title_activity_user_account"
+231-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:211:13-64
+232            android:theme="@style/AppTheme" />
+232-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:212:13-44
+233        <activity
+233-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:214:9-216:58
+234            android:name="com.parrot.drone.groundsdkdemo.peripheral.MediaReplayActivity"
+234-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:215:13-59
+235            android:theme="@style/AppTheme.NoActionBar" />
+235-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:216:13-56
+236        <activity
+236-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:218:9-220:57
+237            android:name="com.parrot.drone.groundsdkdemo.hud.HmdActivity"
+237-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:219:13-44
+238            android:theme="@style/AppTheme.FullScreen" />
+238-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:220:13-55
+239        <activity
+239-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:222:9-225:46
+240            android:name="com.parrot.drone.groundsdkdemo.settings.DriSettingsActivity"
+240-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:223:13-57
+241            android:label="@string/title_activity_dri_settings"
+241-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:224:13-64
+242            android:theme="@style/AppTheme" />
+242-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:225:13-44
+243
+244        <meta-data
+244-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:227:9-229:66
+245            android:name="com.google.android.geo.API_KEY"
+245-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:228:13-58
+246            android:value="@string/gsdkdemo_google_geo_api_key" />
+246-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:229:13-64
+247        <meta-data
+247-->[:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-50:82
+248            android:name="com.parrot.drone.groundsdk.engine.arsdkengine"
+248-->[:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-73
+249            android:value="com.parrot.drone.groundsdk.arsdkengine.ArsdkEngine" />
+249-->[:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-79
+250
+251        <service android:name="com.parrot.drone.groundsdk.internal.DumpSys$Service" />
+251-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-87
+251-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:60:18-84
+252
+253        <activity
+253-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:62:9-74:20
+254            android:name="com.parrot.drone.groundsdk.internal.RcAccessoryBootstrapActivity"
+254-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-92
+255            android:enabled="@bool/gsdk_rc_accessory_bootstrap_activity_enabled"
+255-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-81
+256            android:launchMode="singleInstance"
+256-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-48
+257            android:theme="@android:style/Theme.NoDisplay" >
+257-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-59
+258            <intent-filter>
+258-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-69:29
+259                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+259-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:68:17-93
+259-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:68:25-90
+260            </intent-filter>
+261
+262            <meta-data
+262-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-73:62
+263                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+263-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:72:17-82
+264                android:resource="@xml/gsdk_usb_rc_filter" />
+264-->[:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:73:17-59
+265        </activity> <!-- Needs to be explicitly declared on P+ -->
+266        <uses-library
+266-->[com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+267            android:name="org.apache.http.legacy"
+267-->[com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+268            android:required="false" />
+268-->[com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+269
+270        <activity
+270-->[com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+271            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+271-->[com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+272            android:exported="false"
+272-->[com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+273            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+273-->[com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+274
+275        <meta-data
+275-->[com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+276            android:name="com.google.android.gms.version"
+276-->[com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+277            android:value="@integer/google_play_services_version" />
+277-->[com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+278    </application>
+279
+280</manifest>

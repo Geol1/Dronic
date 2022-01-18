@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+65cbf56e242d91c32e8080ff9e7afc7dd761fe19 refs/remotes/github/gsdk-1.0-branch
+aec53ae520ee47b5c71d205d0a7742bf8b8c1de1 refs/remotes/github/master
+43ebc05d6c944375fc31b8e35065c26872b04b3b refs/tags/v7.0.0
+71ffdda8f225b8fe4aca1b29d12c221de802552c refs/tags/v7.0.1
+8f73e7ae9bd9f634253ec06e8e97e7ab6c5ca5dc refs/tags/v7.0.2
+aec53ae520ee47b5c71d205d0a7742bf8b8c1de1 refs/tags/v7.0.3

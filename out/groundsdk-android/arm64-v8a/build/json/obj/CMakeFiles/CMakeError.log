@@ -1,0 +1,145 @@
+Determining if the _isnan exist failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc277/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cc277.dir/build.make CMakeFiles/cmTC_cc277.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc277.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/toolchain/bin/aarch64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include/aarch64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_cc277.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_isnan'
+  return ((int*)(&_isnan))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_cc277.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cc277.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_cc277.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc277/fast' failed
+make[1]: *** [cmTC_cc277/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _finite exist failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37ffc/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_37ffc.dir/build.make CMakeFiles/cmTC_37ffc.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37ffc.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/toolchain/bin/aarch64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include/aarch64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_37ffc.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_finite'
+  return ((int*)(&_finite))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_37ffc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_37ffc.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_37ffc.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_37ffc/fast' failed
+make[1]: *** [cmTC_37ffc/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _doprnt exist failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4053c/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4053c.dir/build.make CMakeFiles/cmTC_4053c.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4053c.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/toolchain/bin/aarch64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include/aarch64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_4053c.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_doprnt'; did you mean 'fdopen'?
+  return ((int*)(&_doprnt))[argc];
+                  ^~~~~~~
+                  fdopen
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/toolchain/bin/../sysroot/usr/include/stdio.h:264:7: note: 'fdopen' declared here
+FILE* fdopen(int __fd, const char* __mode);
+      ^
+1 error generated.
+CMakeFiles/cmTC_4053c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4053c.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_4053c.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4053c/fast' failed
+make[1]: *** [cmTC_4053c/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _doprnt
+  return ((int*)(&_doprnt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAS_GNU_WARNING_LONG failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70a7d/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_70a7d.dir/build.make CMakeFiles/cmTC_70a7d.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70a7d.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/toolchain/bin/aarch64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include/aarch64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DHAS_GNU_WARNING_LONG -fPIE   -o CMakeFiles/cmTC_70a7d.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/src.c
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/src.c:3:9: warning: missing terminating '"' character [-Winvalid-pp-token]
+__asm__(".section .gnu.json_object_get
+        ^
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/src.c:3:9: error: expected string literal in 'asm'
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/src.c:5:7: warning: missing terminating '"' character [-Winvalid-pp-token]
+        .text");
+             ^
+/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp/src.c:6:38: error: expected ';' after top-level asm block
+int main(int c, char *v) { return 0;}
+                                     ^
+                                     ;
+2 warnings and 2 errors generated.
+CMakeFiles/cmTC_70a7d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_70a7d.dir/src.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_70a7d.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_70a7d/fast' failed
+make[1]: *** [cmTC_70a7d/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+extern void json_object_get();
+__asm__(".section .gnu.json_object_get
+	.ascii "Please link against libjson-c instead of libjson"
+	.text");
+int main(int c, char *v) { return 0;}
+

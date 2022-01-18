@@ -1,0 +1,2 @@
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/arm-linux-androideabi-ar qc liblz4.a  CMakeFiles/liblz4.dir/lib/lz4.c.o CMakeFiles/liblz4.dir/lib/lz4hc.c.o CMakeFiles/liblz4.dir/lib/lz4frame.c.o CMakeFiles/liblz4.dir/lib/xxhash.c.o
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/arm-linux-androideabi-ranlib liblz4.a

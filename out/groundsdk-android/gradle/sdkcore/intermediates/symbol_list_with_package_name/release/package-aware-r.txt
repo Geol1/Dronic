@@ -1,0 +1,3 @@
+com.parrot.drone.groundsdk.sdkcore
+integer arsdk_debug_usb_bridge_port
+string arsdk_debug_usb_bridge_address

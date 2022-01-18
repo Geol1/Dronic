@@ -1,0 +1,10 @@
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/install/strip.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/install/local.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/install.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/list_install_components.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/lz4.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/liblz4.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/package.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/package_source.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/edit_cache.dir
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/liblz4/obj/CMakeFiles/rebuild_cache.dir

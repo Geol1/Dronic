@@ -1,0 +1,1350 @@
+The target system is: Linux -  - x64
+The host system is: Linux - 4.15.0-162-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang 
+Build flags: -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android;-isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include;-std=gnu99;-pipe;-O2;-g;-ffunction-sections;-DALCHEMY_BUILD;;-m64;-fPIC;-msse;-msse2;-mssse3;-DANDROID;-DANDROID_NDK;;-Qunused-arguments;;;-Wno-error
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bc7f/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7bc7f.dir/build.make CMakeFiles/cmTC_7bc7f.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bc7f.dir/testCCompiler.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -o CMakeFiles/cmTC_7bc7f.dir/testCCompiler.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7bc7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc7f.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_7bc7f.dir/testCCompiler.c.o  -o cmTC_7bc7f 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_019bb/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_019bb.dir/build.make CMakeFiles/cmTC_019bb.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -o CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_019bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_019bb.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib   -v -rdynamic CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o  -o cmTC_019bb 
+Android (4691093 based on r316199) clang version 6.0.2 (https://android.googlesource.com/toolchain/clang 183abd29fc496f55536e7d904e0abae47888fc7f) (https://android.googlesource.com/toolchain/llvm 34361f192e41ed6e4e8f9aca80a4ea7e9856f327) (based on LLVM 6.0.2svn)
+Target: x86_64-none-linux-android
+Thread model: posix
+InstalledDir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin
+Found candidate GCC installation: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot -export-dynamic --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /system/bin/linker64 -o cmTC_019bb /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64/crtbegin_dynamic.o -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib -lc++_shared -O1 -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64/crtend_android.o
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_019bb/fast"]
+  ignore line: [make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_019bb.dir/build.make CMakeFiles/cmTC_019bb.dir/build]
+  ignore line: [make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -o CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_019bb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_019bb.dir/link.txt --verbose=1]
+  ignore line: [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib   -v -rdynamic CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o  -o cmTC_019bb ]
+  ignore line: [Android (4691093 based on r316199) clang version 6.0.2 (https://android.googlesource.com/toolchain/clang 183abd29fc496f55536e7d904e0abae47888fc7f) (https://android.googlesource.com/toolchain/llvm 34361f192e41ed6e4e8f9aca80a4ea7e9856f327) (based on LLVM 6.0.2svn)]
+  ignore line: [Target: x86_64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin]
+  ignore line: [Found candidate GCC installation: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot -export-dynamic --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /system/bin/linker64 -o cmTC_019bb /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64/crtbegin_dynamic.o -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib -lc++_shared -O1 -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64/crtend_android.o]
+    arg [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_019bb] ==> ignore
+    arg [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-L/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib] ==> dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib]
+    arg [-lc++_shared] ==> lib [c++_shared]
+    arg [-O1] ==> ignore
+    arg [-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android] ==> ignore
+    arg [-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib] ==> ignore
+    arg [-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android] ==> ignore
+    arg [-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib] ==> ignore
+    arg [CMakeFiles/cmTC_019bb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64/crtend_android.o] ==> ignore
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/x86_64-linux-android/lib64]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib/../lib64] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/sysroot/usr/lib64]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/x86_64-linux-android/lib]
+  collapse library dir [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/../sysroot/usr/lib] ==> [/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/sysroot/usr/lib]
+  implicit libs: [c++_shared;gcc;dl;c;gcc;dl]
+  implicit dirs: [/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android;/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib;/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android;/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib;/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib64/clang/6.0.2/lib/linux/x86_64;/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/lib/gcc/x86_64-linux-android/4.9.x;/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/x86_64-linux-android/lib64;/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/sysroot/usr/lib64;/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/x86_64-linux-android/lib;/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3360/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e3360.dir/build.make CMakeFiles/cmTC_e3360.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3360.dir/feature_tests.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -std=c11 -o CMakeFiles/cmTC_e3360.dir/feature_tests.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e3360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3360.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_e3360.dir/feature_tests.c.o  -o cmTC_e3360 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8934e/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8934e.dir/build.make CMakeFiles/cmTC_8934e.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8934e.dir/feature_tests.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -std=c99 -o CMakeFiles/cmTC_8934e.dir/feature_tests.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8934e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8934e.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_8934e.dir/feature_tests.c.o  -o cmTC_8934e 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6a78/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b6a78.dir/build.make CMakeFiles/cmTC_b6a78.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6a78.dir/feature_tests.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -std=c90 -o CMakeFiles/cmTC_b6a78.dir/feature_tests.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b6a78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a78.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_b6a78.dir/feature_tests.c.o  -o cmTC_b6a78 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcd46/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dcd46.dir/build.make CMakeFiles/cmTC_dcd46.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcd46.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -o CMakeFiles/cmTC_dcd46.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dcd46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcd46.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_dcd46.dir/CheckIncludeFile.c.o  -o cmTC_dcd46 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faf2c/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_faf2c.dir/build.make CMakeFiles/cmTC_faf2c.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faf2c.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang   -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -o CMakeFiles/cmTC_faf2c.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_faf2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faf2c.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_faf2c.dir/CheckSymbolExists.c.o  -o cmTC_faf2c 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d753/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5d753.dir/build.make CMakeFiles/cmTC_5d753.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d753.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_5d753.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d753.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_5d753.dir/CheckIncludeFile.c.o  -o cmTC_5d753 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa264/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fa264.dir/build.make CMakeFiles/cmTC_fa264.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa264.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_fa264.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa264
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa264.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_fa264.dir/CheckIncludeFile.c.o  -o cmTC_fa264 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0916/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b0916.dir/build.make CMakeFiles/cmTC_b0916.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0916.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_b0916.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b0916
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0916.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_b0916.dir/CheckIncludeFile.c.o  -o cmTC_b0916 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82f92/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_82f92.dir/build.make CMakeFiles/cmTC_82f92.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82f92.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_82f92.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82f92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82f92.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_82f92.dir/CheckIncludeFile.c.o  -o cmTC_82f92 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cc23/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2cc23.dir/build.make CMakeFiles/cmTC_2cc23.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cc23.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_2cc23.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2cc23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc23.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_2cc23.dir/CheckIncludeFile.c.o  -o cmTC_2cc23 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c698f/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c698f.dir/build.make CMakeFiles/cmTC_c698f.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c698f.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_c698f.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c698f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c698f.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_c698f.dir/CheckIncludeFile.c.o  -o cmTC_c698f 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17784/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_17784.dir/build.make CMakeFiles/cmTC_17784.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17784.dir/CheckIncludeFiles.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_17784.dir/CheckIncludeFiles.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_17784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17784.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_17784.dir/CheckIncludeFiles.c.o  -o cmTC_17784 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6a91/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b6a91.dir/build.make CMakeFiles/cmTC_b6a91.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6a91.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_b6a91.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b6a91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a91.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_b6a91.dir/CheckIncludeFile.c.o  -o cmTC_b6a91 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_928f7/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_928f7.dir/build.make CMakeFiles/cmTC_928f7.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_928f7.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_928f7.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_928f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_928f7.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_928f7.dir/CheckIncludeFile.c.o  -o cmTC_928f7 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ad5e/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4ad5e.dir/build.make CMakeFiles/cmTC_4ad5e.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ad5e.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_4ad5e.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4ad5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad5e.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_4ad5e.dir/CheckIncludeFile.c.o  -o cmTC_4ad5e 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1163/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c1163.dir/build.make CMakeFiles/cmTC_c1163.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1163.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_c1163.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c1163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1163.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_c1163.dir/CheckIncludeFile.c.o  -o cmTC_c1163 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff242/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ff242.dir/build.make CMakeFiles/cmTC_ff242.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff242.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_ff242.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ff242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff242.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_ff242.dir/CheckIncludeFile.c.o  -o cmTC_ff242 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_634f8/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_634f8.dir/build.make CMakeFiles/cmTC_634f8.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_634f8.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_634f8.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_634f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_634f8.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_634f8.dir/CheckIncludeFile.c.o  -o cmTC_634f8 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f858b/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f858b.dir/build.make CMakeFiles/cmTC_f858b.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f858b.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_f858b.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f858b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f858b.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_f858b.dir/CheckIncludeFile.c.o  -o cmTC_f858b 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45142/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_45142.dir/build.make CMakeFiles/cmTC_45142.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45142.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_45142.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45142
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45142.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_45142.dir/CheckIncludeFile.c.o  -o cmTC_45142 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_357ab/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_357ab.dir/build.make CMakeFiles/cmTC_357ab.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_357ab.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_357ab.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_357ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_357ab.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_357ab.dir/CheckIncludeFile.c.o  -o cmTC_357ab 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9645/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a9645.dir/build.make CMakeFiles/cmTC_a9645.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9645.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_a9645.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a9645
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9645.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_a9645.dir/CheckIncludeFile.c.o  -o cmTC_a9645 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04934/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04934.dir/build.make CMakeFiles/cmTC_04934.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04934.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_04934.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_04934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04934.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_04934.dir/CheckIncludeFile.c.o  -o cmTC_04934 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b95a1/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b95a1.dir/build.make CMakeFiles/cmTC_b95a1.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b95a1.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_b95a1.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b95a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b95a1.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_b95a1.dir/CheckIncludeFile.c.o  -o cmTC_b95a1 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file xlocale.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47419/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_47419.dir/build.make CMakeFiles/cmTC_47419.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47419.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_47419.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47419.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_47419.dir/CheckIncludeFile.c.o  -o cmTC_47419 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43bdd/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43bdd.dir/build.make CMakeFiles/cmTC_43bdd.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43bdd.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_43bdd.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_43bdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43bdd.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_43bdd.dir/CheckSymbolExists.c.o  -o cmTC_43bdd -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cffef/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cffef.dir/build.make CMakeFiles/cmTC_cffef.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cffef.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_cffef.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cffef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cffef.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_cffef.dir/CheckSymbolExists.c.o  -o cmTC_cffef -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c5f1/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1c5f1.dir/build.make CMakeFiles/cmTC_1c5f1.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c5f1.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_1c5f1.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c5f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c5f1.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_1c5f1.dir/CheckSymbolExists.c.o  -o cmTC_1c5f1 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nan exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8257c/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8257c.dir/build.make CMakeFiles/cmTC_8257c.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8257c.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_8257c.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8257c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8257c.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_8257c.dir/CheckSymbolExists.c.o  -o cmTC_8257c -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0103/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e0103.dir/build.make CMakeFiles/cmTC_e0103.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0103.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_e0103.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e0103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0103.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_e0103.dir/CheckSymbolExists.c.o  -o cmTC_e0103 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89bd5/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_89bd5.dir/build.make CMakeFiles/cmTC_89bd5.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89bd5.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_89bd5.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_89bd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89bd5.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_89bd5.dir/CheckSymbolExists.c.o  -o cmTC_89bd5 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c22f/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3c22f.dir/build.make CMakeFiles/cmTC_3c22f.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c22f.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_3c22f.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3c22f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c22f.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_3c22f.dir/CheckSymbolExists.c.o  -o cmTC_3c22f -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vprintf exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17170/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_17170.dir/build.make CMakeFiles/cmTC_17170.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17170.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_17170.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_17170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17170.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_17170.dir/CheckSymbolExists.c.o  -o cmTC_17170 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the open exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd99e/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bd99e.dir/build.make CMakeFiles/cmTC_bd99e.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd99e.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_bd99e.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bd99e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd99e.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_bd99e.dir/CheckSymbolExists.c.o  -o cmTC_bd99e -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realloc exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2527d/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2527d.dir/build.make CMakeFiles/cmTC_2527d.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2527d.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_2527d.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2527d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2527d.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_2527d.dir/CheckSymbolExists.c.o  -o cmTC_2527d -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4ac6/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f4ac6.dir/build.make CMakeFiles/cmTC_f4ac6.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4ac6.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_f4ac6.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4ac6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ac6.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_f4ac6.dir/CheckSymbolExists.c.o  -o cmTC_f4ac6 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the uselocale exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_596f5/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_596f5.dir/build.make CMakeFiles/cmTC_596f5.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_596f5.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_596f5.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_596f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596f5.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_596f5.dir/CheckSymbolExists.c.o  -o cmTC_596f5 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f918/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7f918.dir/build.make CMakeFiles/cmTC_7f918.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f918.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_7f918.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7f918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f918.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_7f918.dir/CheckSymbolExists.c.o  -o cmTC_7f918 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44996/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_44996.dir/build.make CMakeFiles/cmTC_44996.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44996.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_44996.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44996.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_44996.dir/CheckSymbolExists.c.o  -o cmTC_44996 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb845/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bb845.dir/build.make CMakeFiles/cmTC_bb845.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb845.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_bb845.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bb845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb845.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_bb845.dir/CheckSymbolExists.c.o  -o cmTC_bb845 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2a7a/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e2a7a.dir/build.make CMakeFiles/cmTC_e2a7a.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2a7a.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_e2a7a.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e2a7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a7a.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_e2a7a.dir/CheckSymbolExists.c.o  -o cmTC_e2a7a -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsyslog exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_811a1/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_811a1.dir/build.make CMakeFiles/cmTC_811a1.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_811a1.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_811a1.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_811a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_811a1.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_811a1.dir/CheckSymbolExists.c.o  -o cmTC_811a1 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsyslog
+  return ((int*)(&vsyslog))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8443/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d8443.dir/build.make CMakeFiles/cmTC_d8443.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8443.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_d8443.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d8443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8443.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_d8443.dir/CheckSymbolExists.c.o  -o cmTC_d8443 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoull exist passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cbc3/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0cbc3.dir/build.make CMakeFiles/cmTC_0cbc3.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cbc3.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_0cbc3.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0cbc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cbc3.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_0cbc3.dir/CheckSymbolExists.c.o  -o cmTC_0cbc3 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6310e/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6310e.dir/build.make CMakeFiles/cmTC_6310e.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6310e.dir/CheckIncludeFile.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_6310e.dir/CheckIncludeFile.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6310e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6310e.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_6310e.dir/CheckIncludeFile.c.o  -o cmTC_6310e 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3228d/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3228d.dir/build.make CMakeFiles/cmTC_3228d.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3228d.dir/SIZEOF_INT.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_3228d.dir/SIZEOF_INT.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_3228d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3228d.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_3228d.dir/SIZEOF_INT.c.o  -o cmTC_3228d -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_522d6/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_522d6.dir/build.make CMakeFiles/cmTC_522d6.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_522d6.dir/SIZEOF_INT64_T.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_522d6.dir/SIZEOF_INT64_T.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_522d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_522d6.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_522d6.dir/SIZEOF_INT64_T.c.o  -o cmTC_522d6 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f0bd/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0f0bd.dir/build.make CMakeFiles/cmTC_0f0bd.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f0bd.dir/SIZEOF_LONG.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_0f0bd.dir/SIZEOF_LONG.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_0f0bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f0bd.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_0f0bd.dir/SIZEOF_LONG.c.o  -o cmTC_0f0bd -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9763e/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9763e.dir/build.make CMakeFiles/cmTC_9763e.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9763e.dir/SIZEOF_LONG_LONG.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_9763e.dir/SIZEOF_LONG_LONG.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_9763e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9763e.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_9763e.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_9763e -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43e01/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43e01.dir/build.make CMakeFiles/cmTC_43e01.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43e01.dir/SIZEOF_SIZE_T.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_43e01.dir/SIZEOF_SIZE_T.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_43e01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43e01.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_43e01.dir/SIZEOF_SIZE_T.c.o  -o cmTC_43e01 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21760/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_21760.dir/build.make CMakeFiles/cmTC_21760.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21760.dir/SIZEOF_SSIZE_T.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error  -fPIE   -o CMakeFiles/cmTC_21760.dir/SIZEOF_SSIZE_T.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_21760
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21760.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error    -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_21760.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_21760 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d7f7/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2d7f7.dir/build.make CMakeFiles/cmTC_2d7f7.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d7f7.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DHAVE_ATOMIC_BUILTINS -fPIE   -o CMakeFiles/cmTC_2d7f7.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2d7f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7f7.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DHAVE_ATOMIC_BUILTINS   -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_2d7f7.dir/src.c.o  -o cmTC_2d7f7 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
+Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e2f0/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3e2f0.dir/build.make CMakeFiles/cmTC_3e2f0.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e2f0.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DHAVE___THREAD -fPIE   -o CMakeFiles/cmTC_3e2f0.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3e2f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e2f0.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DHAVE___THREAD   -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_3e2f0.dir/src.c.o  -o cmTC_3e2f0 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+__thread int x = 0; int main() { return 0; }
+Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da4c2/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da4c2.dir/build.make CMakeFiles/cmTC_da4c2.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da4c2.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DREENTRANT_WORKS -fPIE   -o CMakeFiles/cmTC_da4c2.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_da4c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da4c2.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DREENTRANT_WORKS   -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_da4c2.dir/src.c.o  -o cmTC_da4c2 -lm 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	/* uClibc toolchains without threading barf when _REENTRANT is defined */
+	#define _REENTRANT 1
+	#include <sys/types.h>
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test BSYMBOLIC_WORKS succeeded with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63f51/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_63f51.dir/build.make CMakeFiles/cmTC_63f51.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63f51.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DBSYMBOLIC_WORKS -fPIE   -o CMakeFiles/cmTC_63f51.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_63f51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f51.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DBSYMBOLIC_WORKS   -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_63f51.dir/src.c.o  -o cmTC_63f51 -lm -Wl,-Bsymbolic-functions 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test VERSION_SCRIPT_WORKS succeeded with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d156/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3d156.dir/build.make CMakeFiles/cmTC_3d156.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d156.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DVERSION_SCRIPT_WORKS -fPIE   -o CMakeFiles/cmTC_3d156.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3d156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d156.dir/link.txt --verbose=1
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-clang -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK  -Qunused-arguments   -Wno-error -DVERSION_SCRIPT_WORKS   -O2  -m64 -lc++_shared -Wl,-O1  -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib    -rdynamic CMakeFiles/cmTC_3d156.dir/src.c.o  -o cmTC_3d156 -lm -Wl,--version-script,/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/check-version-script.sym 
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/x86_64/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	

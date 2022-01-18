@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_internal_hmd_lens_fragment.glsl",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_internal_hmd_lens_fragment.glsl"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_preset_blacklist",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_preset_blacklist"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_internal_hmd_overlay_vertex.glsl",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_internal_hmd_overlay_vertex.glsl"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_preset_updates",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_preset_updates"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_internal_hmd_camera_fragment.glsl",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_internal_hmd_camera_fragment.glsl"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_internal_hmd_overlay_fragment.glsl",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_internal_hmd_overlay_fragment.glsl"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_internal_hmd_camera_vertex.glsl",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_internal_hmd_camera_vertex.glsl"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/raw/gsdk_internal_hmd_lens_vertex.glsl",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/raw/gsdk_internal_hmd_lens_vertex.glsl"
+    }
+]

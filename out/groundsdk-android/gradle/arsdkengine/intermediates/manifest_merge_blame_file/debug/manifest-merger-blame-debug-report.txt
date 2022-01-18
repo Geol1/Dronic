@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~     Copyright (C) 2019 Parrot Drones SAS
+4  ~
+5  ~     Redistribution and use in source and binary forms, with or without
+6  ~     modification, are permitted provided that the following conditions
+7  ~     are met:
+8  ~     * Redistributions of source code must retain the above copyright
+9  ~       notice, this list of conditions and the following disclaimer.
+10  ~     * Redistributions in binary form must reproduce the above copyright
+11  ~       notice, this list of conditions and the following disclaimer in
+12  ~       the documentation and/or other materials provided with the
+13  ~       distribution.
+14  ~     * Neither the name of the Parrot Company nor the names
+15  ~       of its contributors may be used to endorse or promote products
+16  ~       derived from this software without specific prior written
+17  ~       permission.
+18  ~
+19  ~     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+20  ~     "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+21  ~     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+22  ~     FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+23  ~     PARROT COMPANY BE LIABLE FOR ANY DIRECT, INDIRECT,
+24  ~     INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+25  ~     BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+26  ~     OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+27  ~     AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+28  ~     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+29  ~     OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+30  ~     SUCH DAMAGE.
+31  ~
+32-->
+33<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+34    xmlns:tools="http://schemas.android.com/tools"
+35    package="com.parrot.drone.groundsdk.arsdkengine"
+36    android:versionCode="1"
+37    android:versionName="0.0.0" >
+38
+39    <uses-sdk
+40        android:minSdkVersion="24"
+40-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml
+41        android:targetSdkVersion="29" />
+41-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml
+42
+43    <uses-permission android:name="android.permission.INTERNET" />
+43-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:40:5-66
+43-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:40:22-64
+44
+45    <application
+45-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:42:5-48:19
+46        android:networkSecurityConfig="@xml/network_security_config"
+46-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:43:9-69
+47        tools:targetApi="24" >
+47-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:44:9-29
+48        <meta-data
+48-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:45:9-47:81
+49            android:name="com.parrot.drone.groundsdk.engine.arsdkengine"
+49-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:46:13-73
+50            android:value="com.parrot.drone.groundsdk.arsdkengine.ArsdkEngine" />
+50-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:47:13-79
+51    </application>
+52
+53</manifest>

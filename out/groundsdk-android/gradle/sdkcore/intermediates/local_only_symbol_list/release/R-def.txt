@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+integer arsdk_debug_usb_bridge_port
+string arsdk_debug_usb_bridge_address

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/alchemy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/apps_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/dragon_build" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/arsdk-ng" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/arsdk-xml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/ctypeslib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/eigen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/ffmpeg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/json" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libARMavlink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libfutils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libh264" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libmediacodec-wrapper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libmp4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libmux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libpomp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libpuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/librtp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/librtsp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libsdp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libtar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libvideo-buffers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libvideo-decode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libvideo-metadata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/libvideo-streaming" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/logger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/lz4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/mavlink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/olympe-deps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/python-native" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/common/ulog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/groundsdk-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/groundsdk-ios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/olympe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/pdraw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/products/groundsdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/products/olympe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/products/pdraw" vcs="Git" />
+  </component>
+</project>

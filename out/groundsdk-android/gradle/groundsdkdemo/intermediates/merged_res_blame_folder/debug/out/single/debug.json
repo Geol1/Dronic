@@ -1,0 +1,710 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_target_tracker_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/target_tracker_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_media_browser.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_media_browser.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_media_resource.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/media_resource.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_facilities_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_facilities_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_flight_takeoff.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_flight_takeoff.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gamepad_axes_setup.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gamepad_axes_setup.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_user_account_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/user_account_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_delete_media.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_delete_media.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/color_animations_bt_tint.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/color/animations_bt_tint.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_view_text_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/view_text_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_return_home.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_return_home.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_attitude_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/attitude_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_view_toggle_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/view_toggle_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_copter.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_copter.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_photo_progress_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/photo_progress_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_debug_tag.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_debug_tag.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_alarm_low_power.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_alarm_low_power.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_media_store_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/media_store_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_flying.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_flying.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_gimbal_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/gimbal_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_heading.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_heading.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_emergency.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_emergency.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_copter_motors_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/copter_motors_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_hmd.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_hmd.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gamepad_mappings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gamepad_mappings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/color_takeoff_land_bt_tint.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/color/takeoff_land_bt_tint.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_user_emergency.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_user_emergency.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_view_multichoice_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/view_multichoice_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_view_ranged_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/view_ranged_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/color_return_home_bt_tint.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/color/return_home_bt_tint.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_compass_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/compass_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flightdata_downloader_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flightdata_downloader_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_poi_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/poi_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_thermal_stream.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_thermal_stream.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_copter_hud.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_copter_hud.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_wifi_scanner_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/wifi_scanner_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flight_plan_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flight_plan_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_blackbox_reporter_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/blackbox_reporter_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/raw_gsdk_app_defaults.json.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/raw/gsdk_app_defaults.json"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_delete_all_media.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_delete_all_media.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_certificate_uploader_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/certificate_uploader_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_flight_land.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_flight_land.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_velocity_control_item.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/velocity_control_item.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_magnetometer_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/magnetometer_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/color_emergency_bt_tint.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/color/emergency_bt_tint.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_alarm_motor_cutout.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_alarm_motor_cutout.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_return_home_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_return_home_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_format.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_format.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_gps_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/gps_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_camera_exposure_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/camera_exposure_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flying_indicators_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flying_indicators_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_auto_connection_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/auto_connection_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_device_list.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_device_list.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_geofence_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/geofence_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_view_zoom_velocity.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/view_zoom_velocity.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_numeric_debug_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/numeric_debug_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_firmware_manager.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_firmware_manager.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_ranged_setting_item.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/ranged_setting_item.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gamepad_grab.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gamepad_grab.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flight_meter_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flight_meter_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_download_media.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_download_media.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_password.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_password.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_reverse_geocoder_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/reverse_geocoder_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_altimeter_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/altimeter_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_alarm_critical_power.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_alarm_critical_power.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/menu_action_bar.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/menu/action_bar.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_guided_edit.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_guided_edit.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_crash_downloader_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/crash_downloader_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_gamepad_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/gamepad_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_look_at_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/look_at_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_guided_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/guided_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_storage_password.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_storage_password.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_video.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_video.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_stream_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/stream_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_user_account.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_user_account.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_landing.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_landing.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_toggle_setting_item.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/toggle_setting_item.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dri_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dri_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_drone_finder_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/drone_finder_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_camera_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_camera_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_target_tracker_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_target_tracker_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_log_control_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/log_control_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_antiflicker_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/antiflicker_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_drone_finder.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_drone_finder.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_leds_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_leds_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_debug_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_debug_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_item_selected.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_item_selected.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_camera_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/camera_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_return_home_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/return_home_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_magneto_1step_calibration.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_magneto_1step_calibration.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_gps.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_gps.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_battery_gauge_updater_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/battery_gauge_updater_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_wifi_ap_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/wifi_ap_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_emergency.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_emergency.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_overlay_visibility_selector.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_overlay_visibility_selector.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_user_storage_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/user_storage_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_user_heading_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/user_heading_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_media_resources.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_media_resources.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_poi_edit.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_poi_edit.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_overlay_visibility.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_overlay_visibility.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_alarms_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/alarms_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_antiflicker_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_antiflicker_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gamepad_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gamepad_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_drone_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_drone_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_gutmalog_manager_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/gutmalog_manager_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_magneto_3step_calibration.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_magneto_3step_calibration.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_animation_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/animation_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_media_item.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/media_item.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_copilot_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/copilot_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_info_header.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/info_header.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_piloting_control_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_piloting_control_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_standby.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_standby.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_piloting_control_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/piloting_control_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_overlay_visibility_checked.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_overlay_visibility_checked.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flightlog_downloader_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flightlog_downloader_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_dri_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_dri_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dev_toolbox_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dev_toolbox_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_drawer_grip.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_drawer_grip.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_text_debug_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/text_debug_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_media_replay.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_media_replay.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flightdata_manager_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flightdata_manager_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_beeper_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/beeper_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gimbal_calibration.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gimbal_calibration.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_firmware_entry.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/firmware_entry.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_user_location_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/user_location_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_dialog_edit_color.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/dialog_edit_color.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_hmd_ui.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/hmd_ui.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_copter_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_copter_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_crash_reporter_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/crash_reporter_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_photo.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_photo.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_rc_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_rc_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_takeoff.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_takeoff.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_boolean_debug_setting.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/boolean_debug_setting.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_axis_setup_entry.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/axis_setup_entry.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_geofence_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_geofence_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_flight_thrown_takeoff.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_flight_thrown_takeoff.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_view_zoom_level.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/view_zoom_level.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gamepad_edit_mapping.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gamepad_edit_mapping.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_follow_me_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_follow_me_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_flight_plan_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_flight_plan_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/raw_gsdkdemo_hmd_models.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/raw/gsdkdemo_hmd_models"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gimbal_offests_correction.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gimbal_offests_correction.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_flightlog_reporter_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/flightlog_reporter_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_follow_me_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/follow_me_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_color_preview_item.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/color_preview_item.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_gimbal_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_gimbal_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_battery_copter.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_battery_copter.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_copilot_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_copilot_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_battery_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/battery_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_leds_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/leds_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_waiting.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_waiting.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_wifi_ap_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_wifi_ap_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_radio_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/radio_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_alarm_motor_error.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_alarm_motor_error.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_speedometer_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/speedometer_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_look_at.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_look_at.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_firmware_manager_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/firmware_manager_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_thermal_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_thermal_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_activity_precise_home_settings.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/activity_precise_home_settings.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_no_thumbnail.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_no_thumbnail.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_manual_copter_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/manual_copter_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_updater_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/updater_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_video.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_video.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_distance.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_distance.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_poi.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_poi.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_mapping_entry.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/mapping_entry.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_thermal_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/thermal_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_virtual_gamepad_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/virtual_gamepad_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable-mdpi_ic_indicator_ready.png.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable-mdpi/ic_indicator_ready.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_system_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/system_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/layout_precise_home_info.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/layout/precise_home_info.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/res/merged/debug/drawable_ic_reply_all_black_24dp.xml.flat",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/drawable/ic_reply_all_black_24dp.xml"
+    }
+]

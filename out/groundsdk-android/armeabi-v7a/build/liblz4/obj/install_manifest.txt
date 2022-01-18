@@ -1,0 +1,5 @@
+/usr/bin/lz4
+/usr/lib/liblz4.a
+/usr/include/lz4.h
+/usr/include/lz4hc.h
+/usr/include/lz4frame.h

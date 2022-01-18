@@ -1,0 +1,57 @@
+R_DEF: Internal format may change without notice
+local
+array gsdk_supported_devices
+attr? gsdk_hmdDataPack
+attr? gsdk_hmdModelName
+attr gsdk_isMediaOverlay
+attr? gsdk_leftLensOffset
+attr? gsdk_lensesVerticalOffset
+attr? gsdk_overlay
+attr gsdk_paddingFill
+attr? gsdk_rightLensOffset
+attr gsdk_scaleType
+attr gsdk_zebraThreshold
+attr gsdk_zebrasEnabled
+bool gsdk_auto_connection_at_startup
+bool gsdk_auto_select_wifi_country
+bool gsdk_blackbox_enabled
+bool gsdk_ble_enabled
+bool gsdk_crash_report_enabled
+bool gsdk_dev_toolbox_enabled
+bool gsdk_ephemeris_sync_enabled
+bool gsdk_firmware_enabled
+bool gsdk_flight_data_enabled
+bool gsdk_flight_log_enabled
+bool gsdk_gutma_log_enabled
+bool gsdk_rc_accessory_bootstrap_activity_enabled
+bool gsdk_usb_debug_enabled
+bool gsdk_usb_enabled
+bool gsdk_video_decoding_enabled
+bool gsdk_wifi_enabled
+id blur_crop
+id blur_extend
+id crop
+id fit
+id none
+integer gsdk_blackbox_quota
+integer gsdk_crash_report_quota
+integer gsdk_flight_data_quota
+integer gsdk_flight_log_quota
+integer gsdk_gutma_log_quota
+integer gsdk_media_thumbnail_cache_size
+raw gsdk_internal_hmd_camera_fragment
+raw gsdk_internal_hmd_camera_vertex
+raw gsdk_internal_hmd_lens_fragment
+raw gsdk_internal_hmd_lens_vertex
+raw gsdk_internal_hmd_overlay_fragment
+raw gsdk_internal_hmd_overlay_vertex
+raw gsdk_preset_blacklist
+raw gsdk_preset_updates
+string gsdk_application_key
+string gsdk_blackbox_public_folder
+string gsdk_firmware_server
+string gsdk_offline_settings_mode
+string gsdk_reverse_geocoder_default_country_code
+styleable GsdkHmdView gsdk_overlay gsdk_leftLensOffset gsdk_rightLensOffset gsdk_lensesVerticalOffset gsdk_hmdDataPack gsdk_hmdModelName
+styleable GsdkStreamView gsdk_scaleType gsdk_paddingFill gsdk_zebrasEnabled gsdk_zebraThreshold gsdk_isMediaOverlay
+xml gsdk_usb_rc_filter

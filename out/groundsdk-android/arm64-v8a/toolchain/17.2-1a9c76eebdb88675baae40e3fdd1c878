@@ -1,0 +1,1 @@
+/opt/android-ndk-r17c/build/tools/make_standalone_toolchain.py --api=24 --arch=arm64 --install-dir=/home/marlin/groundsdk/out/groundsdk-android/arm64-v8a/toolchain --stl=libc++

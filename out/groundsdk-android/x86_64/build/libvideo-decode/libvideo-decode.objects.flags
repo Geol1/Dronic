@@ -1,0 +1,24 @@
+TARGET_GLOBAL_C_INCLUDES := /home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include/x86_64-none-linux-android /home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/include
+TARGET_GLOBAL_ASFLAGS := 
+TARGET_GLOBAL_OBJCFLAGS := -fobjc-arc
+TARGET_GLOBAL_FFLAGS := 
+TARGET_GLOBAL_VALAFLAGS := --vapidir=/home/marlin/groundsdk/out/groundsdk-android/host/staging/usr/share/vala-0.20/vapi --vapidir=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/share/vala/vapi --target-glib=2.36
+TARGET_GLOBAL_PCHFLAGS := -x c++-header
+TARGET_GLOBAL_LDLIBS := 
+PRIVATE_GLOBAL_CFLAGS := -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD -m64 -fPIC -msse -msse2 -mssse3 -DANDROID -DANDROID_NDK -Qunused-arguments
+PRIVATE_GLOBAL_CXXFLAGS := 
+PRIVATE_GLOBAL_LDFLAGS := -O2 -m64 -lc++_shared -Wl,-O1 -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -L/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/lib -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib/x86_64-none-linux-android -Wl,-rpath-link=/home/marlin/groundsdk/out/groundsdk-android/x86_64/staging/usr/lib
+PRIVATE_C_INCLUDES := /home/marlin/groundsdk/out/groundsdk-android/x86_64/build/libvideo-decode /home/marlin/groundsdk/packages/common/libvideo-decode /home/marlin/groundsdk/packages/common/libh264/include /home/marlin/groundsdk/packages/common/libmediacodec-wrapper/include /home/marlin/groundsdk/packages/common/libvideo-buffers/implem/generic/include /home/marlin/groundsdk/packages/common/libvideo-buffers/include /home/marlin/groundsdk/packages/common/libfutils/include /home/marlin/groundsdk/packages/common/libpomp/include /home/marlin/groundsdk/packages/common/ulog/libulog/include /home/marlin/groundsdk/packages/common/libvideo-decode/include
+PRIVATE_ASFLAGS := 
+PRIVATE_CFLAGS := -DVDEC_API_EXPORTS -fvisibility=hidden -std=gnu99 -DBUILD_LIBH264 -DBUILD_LIBMEDIACODEC_WRAPPER -DBUILD_LIBVIDEO_BUFFERS_GENERIC -DBUILD_JSON -DBUILD_LIBVIDEO_BUFFERS -DBUILD_LIBFUTILS -DBUILD_LIBPOMP -DBUILD_LIBULOG
+PRIVATE_CXXFLAGS := 
+PRIVATE_OBJCFLAGS := 
+PRIVATE_OBJCXXFLAGS := 
+PRIVATE_FFLAGS := 
+PRIVATE_VALAFLAGS := --define BUILD_LIBH264 --define BUILD_LIBMEDIACODEC_WRAPPER --define BUILD_LIBVIDEO_BUFFERS_GENERIC --define BUILD_LIBVIDEO_BUFFERS --define BUILD_LIBFUTILS --define BUILD_LIBPOMP --define BUILD_LIBULOG
+PRIVATE_PCH_INCLUDE := 
+PRIVATE_LDFLAGS := 
+PRIVATE_LDLIBS := -ljson-c -llog -llog
+PRIVATE_WARNINGS_CFLAGS := -Wmissing-prototypes -Wno-strict-prototypes -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wunused-value -Wunused-variable -Wunused-label -Wpointer-arith -Wformat-nonliteral -Wformat-security -Winit-self -fdiagnostics-show-option -fcolor-diagnostics -Wunreachable-code
+PRIVATE_WARNINGS_CXXFLAGS := -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wreorder -Woverloaded-virtual -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wunused-value -Wunused-variable -Wunused-label -Wpointer-arith -Wformat-nonliteral -Wformat-security -Winit-self -fdiagnostics-show-option -fcolor-diagnostics -Wunreachable-code
+

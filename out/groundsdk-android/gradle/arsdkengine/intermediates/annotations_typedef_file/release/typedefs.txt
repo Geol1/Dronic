@@ -1,0 +1,3 @@
+D com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiMotors$MotorAdapter$ArsdkMask
+D com/parrot/drone/groundsdk/arsdkengine/peripheral/skycontroller/gamepad/GamepadControllerBase$AxisMask
+D com/parrot/drone/groundsdk/arsdkengine/peripheral/skycontroller/gamepad/GamepadControllerBase$ButtonMask

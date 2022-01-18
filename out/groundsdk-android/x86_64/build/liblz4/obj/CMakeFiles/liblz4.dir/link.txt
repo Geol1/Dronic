@@ -1,0 +1,2 @@
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-ar qc liblz4.a  CMakeFiles/liblz4.dir/lib/lz4.c.o CMakeFiles/liblz4.dir/lib/lz4hc.c.o CMakeFiles/liblz4.dir/lib/lz4frame.c.o CMakeFiles/liblz4.dir/lib/xxhash.c.o
+/home/marlin/groundsdk/out/groundsdk-android/x86_64/toolchain/bin/x86_64-linux-android-ranlib liblz4.a

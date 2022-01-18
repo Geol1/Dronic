@@ -1,0 +1,145 @@
+Determining if the _isnan exist failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3d3b/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a3d3b.dir/build.make CMakeFiles/cmTC_a3d3b.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3d3b.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/arm-linux-androideabi-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include/armv7a-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=soft -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments  -marm -O2 -fstrict-aliasing -Wno-error  -fPIE   -o CMakeFiles/cmTC_a3d3b.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_isnan'
+  return ((int*)(&_isnan))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_a3d3b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a3d3b.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_a3d3b.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a3d3b/fast' failed
+make[1]: *** [cmTC_a3d3b/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _finite exist failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62648/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62648.dir/build.make CMakeFiles/cmTC_62648.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62648.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/arm-linux-androideabi-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include/armv7a-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=soft -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments  -marm -O2 -fstrict-aliasing -Wno-error  -fPIE   -o CMakeFiles/cmTC_62648.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_finite'
+  return ((int*)(&_finite))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_62648.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_62648.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_62648.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_62648/fast' failed
+make[1]: *** [cmTC_62648/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _doprnt exist failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24cac/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_24cac.dir/build.make CMakeFiles/cmTC_24cac.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24cac.dir/CheckSymbolExists.c.o
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/arm-linux-androideabi-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include/armv7a-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=soft -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments  -marm -O2 -fstrict-aliasing -Wno-error  -fPIE   -o CMakeFiles/cmTC_24cac.dir/CheckSymbolExists.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_doprnt'; did you mean 'fdopen'?
+  return ((int*)(&_doprnt))[argc];
+                  ^~~~~~~
+                  fdopen
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/../sysroot/usr/include/stdio.h:264:7: note: 'fdopen' declared here
+FILE* fdopen(int __fd, const char* __mode);
+      ^
+1 error generated.
+CMakeFiles/cmTC_24cac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_24cac.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_24cac.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_24cac/fast' failed
+make[1]: *** [cmTC_24cac/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+
+File /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _doprnt
+  return ((int*)(&_doprnt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAS_GNU_WARNING_LONG failed with the following output:
+Change Dir: /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2c25/fast"
+make[1]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2c25.dir/build.make CMakeFiles/cmTC_f2c25.dir/build
+make[2]: Entering directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2c25.dir/src.c.o
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/toolchain/bin/arm-linux-androideabi-clang -D_GNU_SOURCE  -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include/armv7a-none-linux-android -isystem/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/staging/usr/include -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD  -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=soft -fPIC -DANDROID -DANDROID_NDK  -Qunused-arguments  -marm -O2 -fstrict-aliasing -Wno-error -DHAS_GNU_WARNING_LONG -fPIE   -o CMakeFiles/cmTC_f2c25.dir/src.c.o   -c /home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/src.c
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/src.c:3:9: warning: missing terminating '"' character [-Winvalid-pp-token]
+__asm__(".section .gnu.json_object_get
+        ^
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/src.c:3:9: error: expected string literal in 'asm'
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/src.c:5:7: warning: missing terminating '"' character [-Winvalid-pp-token]
+        .text");
+             ^
+/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp/src.c:6:38: error: expected ';' after top-level asm block
+int main(int c, char *v) { return 0;}
+                                     ^
+                                     ;
+2 warnings and 2 errors generated.
+CMakeFiles/cmTC_f2c25.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f2c25.dir/src.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_f2c25.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2c25/fast' failed
+make[1]: *** [cmTC_f2c25/fast] Error 2
+make[1]: Leaving directory '/home/marlin/groundsdk/out/groundsdk-android/armeabi-v7a/build/json/obj/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+extern void json_object_get();
+__asm__(".section .gnu.json_object_get
+	.ascii "Please link against libjson-c instead of libjson"
+	.text");
+int main(int c, char *v) { return 0;}
+

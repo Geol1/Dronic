@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/xml/gsdk_usb_rc_filter.xml",
+        "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/res/xml/gsdk_usb_rc_filter.xml"
+    }
+]

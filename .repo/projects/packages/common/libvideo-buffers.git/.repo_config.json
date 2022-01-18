@@ -1,0 +1,26 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.github.url": [
+    "https://github.com/Parrot-Developers/libvideo-buffers"
+  ],
+  "remote.github.projectname": [
+    "libvideo-buffers"
+  ],
+  "remote.github.fetch": [
+    "+refs/heads/*:refs/remotes/github/*"
+  ],
+  "gc.autodetach": [
+    "false"
+  ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/layout/notification_template_part_chronometer.xml"
+    }
+]

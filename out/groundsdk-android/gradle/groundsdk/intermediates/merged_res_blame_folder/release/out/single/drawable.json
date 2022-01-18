@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable/notification_bg.xml"
+    }
+]

@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+54a28185534bb761c4e0bc995cf7ba5193795700 refs/remotes/github/json-0.13-branch
+21eda43bdcc8f6f1c8a718c99ad2b65b5419414b refs/remotes/github/json-0.15-branch
+e086ad4319f511746dc2230e420ff47a0df1e586 refs/remotes/github/master

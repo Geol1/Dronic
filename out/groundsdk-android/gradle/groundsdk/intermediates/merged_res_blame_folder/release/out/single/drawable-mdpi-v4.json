@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/googleg_disabled_color_18.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/googleg_standard_color_18.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    }
+]

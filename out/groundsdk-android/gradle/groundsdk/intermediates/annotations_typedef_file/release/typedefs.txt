@@ -1,0 +1,4 @@
+D com/parrot/drone/groundsdk/hmd/Display$Orientation
+D com/parrot/drone/groundsdk/hmd/Shader$Type
+D com/parrot/drone/groundsdk/internal/view/GlView$Renderer$GlesVersion
+D com/parrot/drone/groundsdk/internal/view/GlView$Renderer$RenderMode

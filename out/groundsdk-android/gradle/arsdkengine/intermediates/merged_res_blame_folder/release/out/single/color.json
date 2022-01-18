@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

@@ -1,0 +1,5 @@
+ro.build.date=Wed Nov 24 14:41:33 CET 2021
+ro.build.date.utc=1637761293
+ro.build.alchemy.product=groundsdk
+ro.build.alchemy.variant=android
+ro.build.hostname=marlin-ThinkPad-X280

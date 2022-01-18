@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/marlin/.gradle/caches/transforms-3/9e8e9ad872f3c296649a725ae9b2b4a7/transformed/core-1.0.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]
