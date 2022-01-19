@@ -82,12 +82,12 @@ com/parrot/drone/groundsdkdemo/settings/TextSettingView.java
  com.parrot.drone.groundsdkdemo.settings.TextSettingView
  com.parrot.drone.groundsdkdemo.settings.TextSettingView$1
  com.parrot.drone.groundsdkdemo.settings.TextSettingView$Listener
-com/parrot/drone/groundsdkdemo/info/FlightLogDownloaderContent.java
- com.parrot.drone.groundsdkdemo.info.FlightLogDownloaderContent
- com.parrot.drone.groundsdkdemo.info.FlightLogDownloaderContent$ViewHolder
 com/parrot/drone/groundsdkdemo/info/DroneInfoActivity.java
  com.parrot.drone.groundsdkdemo.info.DroneInfoActivity
  com.parrot.drone.groundsdkdemo.info.DroneInfoActivity$1
+com/parrot/drone/groundsdkdemo/info/FlightLogDownloaderContent.java
+ com.parrot.drone.groundsdkdemo.info.FlightLogDownloaderContent
+ com.parrot.drone.groundsdkdemo.info.FlightLogDownloaderContent$ViewHolder
 com/parrot/drone/groundsdkdemo/settings/CameraSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.CameraSettingsActivity
  com.parrot.drone.groundsdkdemo.settings.CameraSettingsActivity$1
@@ -143,25 +143,25 @@ com/parrot/drone/groundsdkdemo/settings/GeofenceSettingsActivity.java
 com/parrot/drone/groundsdkdemo/info/AltimeterContent.java
  com.parrot.drone.groundsdkdemo.info.AltimeterContent
  com.parrot.drone.groundsdkdemo.info.AltimeterContent$ViewHolder
-com/parrot/drone/groundsdkdemo/settings/VelocityControlView.java
- com.parrot.drone.groundsdkdemo.settings.VelocityControlView
- com.parrot.drone.groundsdkdemo.settings.VelocityControlView$1
- com.parrot.drone.groundsdkdemo.settings.VelocityControlView$Listener
 com/parrot/drone/groundsdkdemo/DeviceListFragment.java
  com.parrot.drone.groundsdkdemo.DeviceListFragment
  com.parrot.drone.groundsdkdemo.DeviceListFragment$1
  com.parrot.drone.groundsdkdemo.DeviceListFragment$Adapter
  com.parrot.drone.groundsdkdemo.DeviceListFragment$OnDeviceSelectedListener
+com/parrot/drone/groundsdkdemo/settings/VelocityControlView.java
+ com.parrot.drone.groundsdkdemo.settings.VelocityControlView
+ com.parrot.drone.groundsdkdemo.settings.VelocityControlView$1
+ com.parrot.drone.groundsdkdemo.settings.VelocityControlView$Listener
 com/parrot/drone/groundsdkdemo/info/ReverseGeocoderContent.java
  com.parrot.drone.groundsdkdemo.info.ReverseGeocoderContent
  com.parrot.drone.groundsdkdemo.info.ReverseGeocoderContent$ViewHolder
-com/parrot/drone/groundsdkdemo/info/FlightMeterContent.java
- com.parrot.drone.groundsdkdemo.info.FlightMeterContent
- com.parrot.drone.groundsdkdemo.info.FlightMeterContent$ViewHolder
 com/parrot/drone/groundsdkdemo/info/PickFileDialog.java
  com.parrot.drone.groundsdkdemo.info.PickFileDialog
  com.parrot.drone.groundsdkdemo.info.PickFileDialog$1
  com.parrot.drone.groundsdkdemo.info.PickFileDialog$Listener
+com/parrot/drone/groundsdkdemo/info/FlightMeterContent.java
+ com.parrot.drone.groundsdkdemo.info.FlightMeterContent
+ com.parrot.drone.groundsdkdemo.info.FlightMeterContent$ViewHolder
 com/parrot/drone/groundsdkdemo/info/ZoomVelocityView.java
  com.parrot.drone.groundsdkdemo.info.ZoomVelocityView
  com.parrot.drone.groundsdkdemo.info.ZoomVelocityView$1
@@ -198,39 +198,39 @@ com/parrot/drone/groundsdkdemo/facility/FirmwareManagerActivity.java
  com.parrot.drone.groundsdkdemo.facility.FirmwareManagerActivity$Adapter
  com.parrot.drone.groundsdkdemo.facility.FirmwareManagerActivity$FirmwareEntryHolder
  com.parrot.drone.groundsdkdemo.facility.FirmwareManagerActivity$FirmwareEntryHolder$1
+com/parrot/drone/groundsdkdemo/peripheral/DebugSettingsActivity.java
+ com.parrot.drone.groundsdkdemo.peripheral.DebugSettingsActivity
 com/parrot/drone/groundsdkdemo/info/FlightDataManagerContent.java
  com.parrot.drone.groundsdkdemo.info.FlightDataManagerContent
  com.parrot.drone.groundsdkdemo.info.FlightDataManagerContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.FlightDataManagerContent$ViewHolder$1
-com/parrot/drone/groundsdkdemo/peripheral/DebugSettingsActivity.java
- com.parrot.drone.groundsdkdemo.peripheral.DebugSettingsActivity
-com/parrot/drone/groundsdkdemo/info/DriContent.java
- com.parrot.drone.groundsdkdemo.info.DriContent
- com.parrot.drone.groundsdkdemo.info.DriContent$ViewHolder
- com.parrot.drone.groundsdkdemo.info.DriContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/info/ReturnHomeContent.java
  com.parrot.drone.groundsdkdemo.info.ReturnHomeContent
  com.parrot.drone.groundsdkdemo.info.ReturnHomeContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.ReturnHomeContent$ViewHolder$1
+com/parrot/drone/groundsdkdemo/info/DriContent.java
+ com.parrot.drone.groundsdkdemo.info.DriContent
+ com.parrot.drone.groundsdkdemo.info.DriContent$ViewHolder
+ com.parrot.drone.groundsdkdemo.info.DriContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/info/RadioContent.java
  com.parrot.drone.groundsdkdemo.info.RadioContent
  com.parrot.drone.groundsdkdemo.info.RadioContent$ViewHolder
+com/parrot/drone/groundsdkdemo/hud/CustomDrawer.java
+ com.parrot.drone.groundsdkdemo.hud.CustomDrawer
 com/parrot/drone/groundsdkdemo/info/WifiScannerContent.java
  com.parrot.drone.groundsdkdemo.info.WifiScannerContent
  com.parrot.drone.groundsdkdemo.info.WifiScannerContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.WifiScannerContent$ViewHolder$1
-com/parrot/drone/groundsdkdemo/hud/CustomDrawer.java
- com.parrot.drone.groundsdkdemo.hud.CustomDrawer
 com/parrot/drone/groundsdkdemo/format/LocationFormatter.java
  com.parrot.drone.groundsdkdemo.format.LocationFormatter
+com/parrot/drone/groundsdkdemo/settings/FlightPlanSettingsActivity.java
+ com.parrot.drone.groundsdkdemo.settings.FlightPlanSettingsActivity
+com/parrot/drone/groundsdkdemo/edit/CustomMapView.java
+ com.parrot.drone.groundsdkdemo.edit.CustomMapView
 com/parrot/drone/groundsdkdemo/StoragePasswordFragment.java
  com.parrot.drone.groundsdkdemo.StoragePasswordFragment
  com.parrot.drone.groundsdkdemo.StoragePasswordFragment$1
  com.parrot.drone.groundsdkdemo.StoragePasswordFragment$Listener
-com/parrot/drone/groundsdkdemo/edit/CustomMapView.java
- com.parrot.drone.groundsdkdemo.edit.CustomMapView
-com/parrot/drone/groundsdkdemo/settings/FlightPlanSettingsActivity.java
- com.parrot.drone.groundsdkdemo.settings.FlightPlanSettingsActivity
 com/parrot/drone/groundsdkdemo/settings/RangedSettingView.java
  com.parrot.drone.groundsdkdemo.settings.RangedSettingView
  com.parrot.drone.groundsdkdemo.settings.RangedSettingView$1
@@ -238,9 +238,6 @@ com/parrot/drone/groundsdkdemo/settings/RangedSettingView.java
  com.parrot.drone.groundsdkdemo.settings.RangedSettingView$Format$1
  com.parrot.drone.groundsdkdemo.settings.RangedSettingView$Format$2
  com.parrot.drone.groundsdkdemo.settings.RangedSettingView$Listener
-com/parrot/drone/groundsdkdemo/animation/Animations.java
- com.parrot.drone.groundsdkdemo.animation.Animations
- com.parrot.drone.groundsdkdemo.animation.Animations$1
 com/parrot/drone/groundsdkdemo/peripheral/MediaStoreBrowserActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity
  com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity$1
@@ -249,6 +246,9 @@ com/parrot/drone/groundsdkdemo/peripheral/MediaStoreBrowserActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity$Adapter
  com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity$MediaItemHolder
  com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity$StorageType
+com/parrot/drone/groundsdkdemo/animation/Animations.java
+ com.parrot.drone.groundsdkdemo.animation.Animations
+ com.parrot.drone.groundsdkdemo.animation.Animations$1
 com/parrot/drone/groundsdkdemo/animation/PickAnimationDialog.java
  com.parrot.drone.groundsdkdemo.animation.PickAnimationDialog
  com.parrot.drone.groundsdkdemo.animation.PickAnimationDialog$1
@@ -268,6 +268,8 @@ com/parrot/drone/groundsdkdemo/peripheral/gamepad/facade/ScUaGamepadFacadeImpl.j
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.facade.ScUaGamepadFacadeImpl$FacadeButtonMappingEntry
 com/parrot/drone/groundsdkdemo/settings/LedsSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.LedsSettingsActivity
+com/parrot/drone/groundsdkdemo/hud/AltimeterView.java
+ com.parrot.drone.groundsdkdemo.hud.AltimeterView
 com/parrot/drone/groundsdkdemo/settings/ThermalSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity
  com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity$1
@@ -276,8 +278,6 @@ com/parrot/drone/groundsdkdemo/settings/ThermalSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity$4
  com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity$ColorPaletteAdapter
  com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity$ColorViewHolder
-com/parrot/drone/groundsdkdemo/hud/AltimeterView.java
- com.parrot.drone.groundsdkdemo.hud.AltimeterView
 com/parrot/drone/groundsdkdemo/info/CertificateUploaderContent.java
  com.parrot.drone.groundsdkdemo.info.CertificateUploaderContent
  com.parrot.drone.groundsdkdemo.info.CertificateUploaderContent$ViewHolder
@@ -292,16 +292,16 @@ com/parrot/drone/groundsdkdemo/info/WifiAccessPointContent.java
  com.parrot.drone.groundsdkdemo.info.WifiAccessPointContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/settings/ManualCopterSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.ManualCopterSettingsActivity
-com/parrot/drone/groundsdkdemo/info/CopilotContent.java
- com.parrot.drone.groundsdkdemo.info.CopilotContent
- com.parrot.drone.groundsdkdemo.info.CopilotContent$ViewHolder
- com.parrot.drone.groundsdkdemo.info.CopilotContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/peripheral/gamepad/GamepadEditMappingActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity$1
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity$2
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity$3
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity$4
+com/parrot/drone/groundsdkdemo/info/CopilotContent.java
+ com.parrot.drone.groundsdkdemo.info.CopilotContent
+ com.parrot.drone.groundsdkdemo.info.CopilotContent$ViewHolder
+ com.parrot.drone.groundsdkdemo.info.CopilotContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/settings/PreciseHomeSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.PreciseHomeSettingsActivity
 com/parrot/drone/groundsdkdemo/peripheral/GimbalCalibrationActivity.java
@@ -323,6 +323,9 @@ com/parrot/drone/groundsdkdemo/info/LiveStreamContent.java
  com.parrot.drone.groundsdkdemo.info.LiveStreamContent
  com.parrot.drone.groundsdkdemo.info.LiveStreamContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.LiveStreamContent$ViewHolder$1
+com/parrot/drone/groundsdkdemo/hud/JoystickView.java
+ com.parrot.drone.groundsdkdemo.hud.JoystickView
+ com.parrot.drone.groundsdkdemo.hud.JoystickView$JoystickListener
 com/parrot/drone/groundsdkdemo/settings/GimbalSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity
  com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity$1
@@ -334,9 +337,6 @@ com/parrot/drone/groundsdkdemo/settings/GimbalSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity$StabilizationItemHolder
  com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity$VelocityTargetsAdapter
  com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity$VelocityTargetsItemHolder
-com/parrot/drone/groundsdkdemo/hud/JoystickView.java
- com.parrot.drone.groundsdkdemo.hud.JoystickView
- com.parrot.drone.groundsdkdemo.hud.JoystickView$JoystickListener
 com/parrot/drone/groundsdkdemo/info/LogControlContent.java
  com.parrot.drone.groundsdkdemo.info.LogControlContent
  com.parrot.drone.groundsdkdemo.info.LogControlContent$ViewHolder
@@ -379,8 +379,6 @@ com/parrot/drone/groundsdkdemo/info/VirtualGamepadContent.java
  com.parrot.drone.groundsdkdemo.info.VirtualGamepadContent$GrabEventListener
  com.parrot.drone.groundsdkdemo.info.VirtualGamepadContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.VirtualGamepadContent$ViewHolder$1
-com/parrot/drone/groundsdkdemo/peripheral/ThermalStreamActivity.java
- com.parrot.drone.groundsdkdemo.peripheral.ThermalStreamActivity
 com/parrot/drone/groundsdkdemo/peripheral/debugsettings/DebugSettingsRecyclerView.java
  com.parrot.drone.groundsdkdemo.peripheral.debugsettings.DebugSettingsRecyclerView
  com.parrot.drone.groundsdkdemo.peripheral.debugsettings.DebugSettingsRecyclerView$1
@@ -393,6 +391,8 @@ com/parrot/drone/groundsdkdemo/peripheral/debugsettings/DebugSettingsRecyclerVie
  com.parrot.drone.groundsdkdemo.peripheral.debugsettings.DebugSettingsRecyclerView$TextDebugSetting$1
  com.parrot.drone.groundsdkdemo.peripheral.debugsettings.DebugSettingsRecyclerView$ViewAdapter
  com.parrot.drone.groundsdkdemo.peripheral.debugsettings.DebugSettingsRecyclerView$ViewHolder
+com/parrot/drone/groundsdkdemo/peripheral/ThermalStreamActivity.java
+ com.parrot.drone.groundsdkdemo.peripheral.ThermalStreamActivity
 com/parrot/drone/groundsdkdemo/settings/SettingViewAdapters.java
  com.parrot.drone.groundsdkdemo.settings.SettingViewAdapters
 com/parrot/drone/groundsdkdemo/peripheral/gamepad/facade/Sc3GamepadFacadeImpl.java
@@ -419,14 +419,14 @@ com/parrot/drone/groundsdkdemo/settings/WifiAccessPointSettingsActivity.java
 com/parrot/drone/groundsdkdemo/peripheral/Magnetometer3StepCalibrationActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.Magnetometer3StepCalibrationActivity
  com.parrot.drone.groundsdkdemo.peripheral.Magnetometer3StepCalibrationActivity$1
-com/parrot/drone/groundsdkdemo/info/PointOfInterestContent.java
- com.parrot.drone.groundsdkdemo.info.PointOfInterestContent
- com.parrot.drone.groundsdkdemo.info.PointOfInterestContent$ViewHolder
- com.parrot.drone.groundsdkdemo.info.PointOfInterestContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/peripheral/DeleteAllMediaDialogFragment.java
  com.parrot.drone.groundsdkdemo.peripheral.DeleteAllMediaDialogFragment
  com.parrot.drone.groundsdkdemo.peripheral.DeleteAllMediaDialogFragment$1
  com.parrot.drone.groundsdkdemo.peripheral.DeleteAllMediaDialogFragment$Listener
+com/parrot/drone/groundsdkdemo/info/PointOfInterestContent.java
+ com.parrot.drone.groundsdkdemo.info.PointOfInterestContent
+ com.parrot.drone.groundsdkdemo.info.PointOfInterestContent$ViewHolder
+ com.parrot.drone.groundsdkdemo.info.PointOfInterestContent$ViewHolder$1
 com/parrot/drone/groundsdkdemo/info/InstrumentContent.java
  com.parrot.drone.groundsdkdemo.info.InstrumentContent
 com/parrot/drone/groundsdkdemo/info/PilotingControlContent.java
@@ -442,21 +442,21 @@ com/parrot/drone/groundsdkdemo/info/AntiFlickerContent.java
  com.parrot.drone.groundsdkdemo.info.AntiFlickerContent
  com.parrot.drone.groundsdkdemo.info.AntiFlickerContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.AntiFlickerContent$ViewHolder$1
-com/parrot/drone/groundsdkdemo/settings/CopilotSettingsActivity.java
- com.parrot.drone.groundsdkdemo.settings.CopilotSettingsActivity
 com/parrot/drone/groundsdkdemo/DeviceListActivity.java
  com.parrot.drone.groundsdkdemo.DeviceListActivity
  com.parrot.drone.groundsdkdemo.DeviceListActivity$1
+com/parrot/drone/groundsdkdemo/settings/CopilotSettingsActivity.java
+ com.parrot.drone.groundsdkdemo.settings.CopilotSettingsActivity
 com/parrot/drone/groundsdkdemo/info/CopterMotorsContent.java
  com.parrot.drone.groundsdkdemo.info.CopterMotorsContent
  com.parrot.drone.groundsdkdemo.info.CopterMotorsContent$ViewHolder
-com/parrot/drone/groundsdkdemo/info/CompassContent.java
- com.parrot.drone.groundsdkdemo.info.CompassContent
- com.parrot.drone.groundsdkdemo.info.CompassContent$ViewHolder
 com/parrot/drone/groundsdkdemo/peripheral/DeleteMediaDialogFragment.java
  com.parrot.drone.groundsdkdemo.peripheral.DeleteMediaDialogFragment
  com.parrot.drone.groundsdkdemo.peripheral.DeleteMediaDialogFragment$1
  com.parrot.drone.groundsdkdemo.peripheral.DeleteMediaDialogFragment$Listener
+com/parrot/drone/groundsdkdemo/info/CompassContent.java
+ com.parrot.drone.groundsdkdemo.info.CompassContent
+ com.parrot.drone.groundsdkdemo.info.CompassContent$ViewHolder
 com/parrot/drone/groundsdkdemo/settings/MultiChoiceSettingView.java
  com.parrot.drone.groundsdkdemo.settings.MultiChoiceSettingView
  com.parrot.drone.groundsdkdemo.settings.MultiChoiceSettingView$1
@@ -484,15 +484,15 @@ com/parrot/drone/groundsdkdemo/animation/PickFlipDirectionDialog.java
  com.parrot.drone.groundsdkdemo.animation.PickFlipDirectionDialog
  com.parrot.drone.groundsdkdemo.animation.PickFlipDirectionDialog$1
  com.parrot.drone.groundsdkdemo.animation.PickFlipDirectionDialog$Listener
+com/parrot/drone/groundsdkdemo/peripheral/DownloadMediaDialogFragment.java
+ com.parrot.drone.groundsdkdemo.peripheral.DownloadMediaDialogFragment
+ com.parrot.drone.groundsdkdemo.peripheral.DownloadMediaDialogFragment$1
+ com.parrot.drone.groundsdkdemo.peripheral.DownloadMediaDialogFragment$Listener
 com/parrot/drone/groundsdkdemo/info/FacilityContent.java
  com.parrot.drone.groundsdkdemo.info.FacilityContent
 com/parrot/drone/groundsdkdemo/info/RCInfoActivity.java
  com.parrot.drone.groundsdkdemo.info.RCInfoActivity
  com.parrot.drone.groundsdkdemo.info.RCInfoActivity$1
-com/parrot/drone/groundsdkdemo/peripheral/DownloadMediaDialogFragment.java
- com.parrot.drone.groundsdkdemo.peripheral.DownloadMediaDialogFragment
- com.parrot.drone.groundsdkdemo.peripheral.DownloadMediaDialogFragment$1
- com.parrot.drone.groundsdkdemo.peripheral.DownloadMediaDialogFragment$Listener
 com/parrot/drone/groundsdkdemo/info/CameraContent.java
  com.parrot.drone.groundsdkdemo.info.CameraContent
  com.parrot.drone.groundsdkdemo.info.CameraContent$1
@@ -520,8 +520,6 @@ com/parrot/drone/groundsdkdemo/FormatDialogFragment.java
  com.parrot.drone.groundsdkdemo.FormatDialogFragment
  com.parrot.drone.groundsdkdemo.FormatDialogFragment$1
  com.parrot.drone.groundsdkdemo.FormatDialogFragment$Listener
-com/parrot/drone/groundsdkdemo/info/DeviceRefContent.java
- com.parrot.drone.groundsdkdemo.info.DeviceRefContent
 com/parrot/drone/groundsdkdemo/peripheral/gamepad/GamepadGrabActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity$1
@@ -529,23 +527,25 @@ com/parrot/drone/groundsdkdemo/peripheral/gamepad/GamepadGrabActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity$Input
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity$Input$AxisInput
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity$Input$ButtonInput
-com/parrot/drone/groundsdkdemo/info/PhotoProgressContent.java
- com.parrot.drone.groundsdkdemo.info.PhotoProgressContent
- com.parrot.drone.groundsdkdemo.info.PhotoProgressContent$ViewHolder
+com/parrot/drone/groundsdkdemo/info/DeviceRefContent.java
+ com.parrot.drone.groundsdkdemo.info.DeviceRefContent
 com/parrot/drone/groundsdkdemo/hud/ThrottleView.java
  com.parrot.drone.groundsdkdemo.hud.ThrottleView
  com.parrot.drone.groundsdkdemo.hud.ThrottleView$OnThrottleChangeListener
+com/parrot/drone/groundsdkdemo/info/PhotoProgressContent.java
+ com.parrot.drone.groundsdkdemo.info.PhotoProgressContent
+ com.parrot.drone.groundsdkdemo.info.PhotoProgressContent$ViewHolder
 com/parrot/drone/groundsdkdemo/settings/GimbalOffsetsCorrectionActivity.java
  com.parrot.drone.groundsdkdemo.settings.GimbalOffsetsCorrectionActivity
 com/parrot/drone/groundsdkdemo/peripheral/VideoStreamActivity.java
  com.parrot.drone.groundsdkdemo.peripheral.VideoStreamActivity
-com/parrot/drone/groundsdkdemo/info/PeripheralContent.java
- com.parrot.drone.groundsdkdemo.info.PeripheralContent
 com/parrot/drone/groundsdkdemo/peripheral/gamepad/facade/GamepadFacadeProvider.java
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.facade.GamepadFacadeProvider
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.facade.GamepadFacadeProvider$1
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.facade.GamepadFacadeProvider$GamepadFacadeRef
  com.parrot.drone.groundsdkdemo.peripheral.gamepad.facade.GamepadFacadeProvider$GamepadFacadeRef$1
+com/parrot/drone/groundsdkdemo/info/PeripheralContent.java
+ com.parrot.drone.groundsdkdemo.info.PeripheralContent
 com/parrot/drone/groundsdkdemo/info/CameraExposureContent.java
  com.parrot.drone.groundsdkdemo.info.CameraExposureContent
  com.parrot.drone.groundsdkdemo.info.CameraExposureContent$ViewHolder
@@ -554,13 +554,13 @@ com/parrot/drone/groundsdkdemo/facility/UserAccountActivity.java
 com/parrot/drone/groundsdkdemo/info/FlightDataDownloaderContent.java
  com.parrot.drone.groundsdkdemo.info.FlightDataDownloaderContent
  com.parrot.drone.groundsdkdemo.info.FlightDataDownloaderContent$ViewHolder
+com/parrot/drone/groundsdkdemo/hud/HeadingView.java
+ com.parrot.drone.groundsdkdemo.hud.HeadingView
 com/parrot/drone/groundsdkdemo/info/BatteryGaugeUpdaterContent.java
  com.parrot.drone.groundsdkdemo.info.BatteryGaugeUpdaterContent
  com.parrot.drone.groundsdkdemo.info.BatteryGaugeUpdaterContent$1
  com.parrot.drone.groundsdkdemo.info.BatteryGaugeUpdaterContent$ViewHolder
  com.parrot.drone.groundsdkdemo.info.BatteryGaugeUpdaterContent$ViewHolder$1
-com/parrot/drone/groundsdkdemo/hud/HeadingView.java
- com.parrot.drone.groundsdkdemo.hud.HeadingView
 com/parrot/drone/groundsdkdemo/settings/TargetTrackerSettingsActivity.java
  com.parrot.drone.groundsdkdemo.settings.TargetTrackerSettingsActivity
 com/parrot/drone/groundsdkdemo/info/UserLocationContent.java

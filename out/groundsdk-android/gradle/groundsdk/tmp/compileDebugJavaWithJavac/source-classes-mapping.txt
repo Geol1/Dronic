@@ -101,21 +101,15 @@ com/parrot/drone/groundsdk/internal/io/Files.java
 com/parrot/drone/groundsdk/internal/device/peripheral/wifi/SecuritySettingCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.wifi.SecuritySettingCore
  com.parrot.drone.groundsdk.internal.device.peripheral.wifi.SecuritySettingCore$Backend
-com/parrot/drone/groundsdk/internal/device/peripheral/FlightLogDownloaderCore.java
- com.parrot.drone.groundsdk.internal.device.peripheral.FlightLogDownloaderCore
 com/parrot/drone/groundsdk/internal/engine/gutmalog/GutmaLogStorageCore.java
  com.parrot.drone.groundsdk.internal.engine.gutmalog.GutmaLogStorageCore
+com/parrot/drone/groundsdk/internal/device/peripheral/FlightLogDownloaderCore.java
+ com.parrot.drone.groundsdk.internal.device.peripheral.FlightLogDownloaderCore
 com/parrot/drone/groundsdk/internal/DumpSys.java
  com.parrot.drone.groundsdk.internal.DumpSys
  com.parrot.drone.groundsdk.internal.DumpSys$1
  com.parrot.drone.groundsdk.internal.DumpSys$Dumpable
  com.parrot.drone.groundsdk.internal.DumpSys$Service
-com/parrot/drone/groundsdk/internal/tasks/MainThreadScheduler.java
- com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler
- com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$1
- com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$Default
- com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$Default$1
- com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$PostFromMainThreadPolicy
 com/parrot/drone/groundsdk/internal/engine/system/SystemLocationCore.java
  com.parrot.drone.groundsdk.internal.engine.system.SystemLocationCore
  com.parrot.drone.groundsdk.internal.engine.system.SystemLocationCore$1
@@ -123,6 +117,12 @@ com/parrot/drone/groundsdk/internal/engine/system/SystemLocationCore.java
  com.parrot.drone.groundsdk.internal.engine.system.SystemLocationCore$3
  com.parrot.drone.groundsdk.internal.engine.system.SystemLocationCore$4
  com.parrot.drone.groundsdk.internal.engine.system.SystemLocationCore$LocationType
+com/parrot/drone/groundsdk/internal/tasks/MainThreadScheduler.java
+ com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler
+ com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$1
+ com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$Default
+ com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$Default$1
+ com.parrot.drone.groundsdk.internal.tasks.MainThreadScheduler$PostFromMainThreadPolicy
 com/parrot/drone/groundsdk/mavlink/SetViewModeCommand.java
  com.parrot.drone.groundsdk.mavlink.SetViewModeCommand
  com.parrot.drone.groundsdk.mavlink.SetViewModeCommand$Mode
@@ -333,11 +333,11 @@ com/parrot/drone/groundsdk/device/peripheral/MagnetometerWith3StepCalibration.ja
  com.parrot.drone.groundsdk.device.peripheral.MagnetometerWith3StepCalibration
  com.parrot.drone.groundsdk.device.peripheral.MagnetometerWith3StepCalibration$CalibrationProcessState
  com.parrot.drone.groundsdk.device.peripheral.MagnetometerWith3StepCalibration$CalibrationProcessState$Axis
+com/parrot/drone/groundsdk/internal/engine/firmware/Validation.java
+ com.parrot.drone.groundsdk.internal.engine.firmware.Validation
 com/parrot/drone/groundsdk/device/pilotingitf/Activable.java
  com.parrot.drone.groundsdk.device.pilotingitf.Activable
  com.parrot.drone.groundsdk.device.pilotingitf.Activable$State
-com/parrot/drone/groundsdk/internal/engine/firmware/Validation.java
- com.parrot.drone.groundsdk.internal.engine.firmware.Validation
 com/parrot/drone/groundsdk/device/pilotingitf/ManualCopterPilotingItf.java
  com.parrot.drone.groundsdk.device.pilotingitf.ManualCopterPilotingItf
  com.parrot.drone.groundsdk.device.pilotingitf.ManualCopterPilotingItf$SmartTakeOffLandAction
@@ -357,8 +357,6 @@ com/parrot/drone/groundsdk/internal/utility/SystemLocation.java
 com/parrot/drone/groundsdk/internal/device/peripheral/PilotingControlCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.PilotingControlCore
  com.parrot.drone.groundsdk.internal.device.peripheral.PilotingControlCore$Backend
-com/parrot/drone/groundsdk/device/DroneListEntry.java
- com.parrot.drone.groundsdk.device.DroneListEntry
 com/parrot/drone/groundsdk/internal/device/peripheral/UpdaterCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.UpdaterCore
  com.parrot.drone.groundsdk.internal.device.peripheral.UpdaterCore$1
@@ -366,6 +364,8 @@ com/parrot/drone/groundsdk/internal/device/peripheral/UpdaterCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.UpdaterCore$Backend
  com.parrot.drone.groundsdk.internal.device.peripheral.UpdaterCore$DownloadCore
  com.parrot.drone.groundsdk.internal.device.peripheral.UpdaterCore$UpdateCore
+com/parrot/drone/groundsdk/device/DroneListEntry.java
+ com.parrot.drone.groundsdk.device.DroneListEntry
 com/parrot/drone/groundsdk/internal/engine/flightlog/FlightLogEngine.java
  com.parrot.drone.groundsdk.internal.engine.flightlog.FlightLogEngine
  com.parrot.drone.groundsdk.internal.engine.flightlog.FlightLogEngine$1
@@ -536,6 +536,10 @@ com/parrot/drone/groundsdk/internal/stream/YUVSinkCore.java
  com.parrot.drone.groundsdk.internal.stream.YUVSinkCore$2
  com.parrot.drone.groundsdk.internal.stream.YUVSinkCore$2$1
  com.parrot.drone.groundsdk.internal.stream.YUVSinkCore$Config
+com/parrot/drone/groundsdk/internal/engine/flightdata/FlightDataEngine.java
+ com.parrot.drone.groundsdk.internal.engine.flightdata.FlightDataEngine
+com/parrot/drone/groundsdk/internal/device/peripheral/camera/CameraPhotoStateCore.java
+ com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraPhotoStateCore
 com/parrot/drone/groundsdk/device/peripheral/Updater.java
  com.parrot.drone.groundsdk.device.peripheral.Updater
  com.parrot.drone.groundsdk.device.peripheral.Updater$Download
@@ -544,10 +548,6 @@ com/parrot/drone/groundsdk/device/peripheral/Updater.java
  com.parrot.drone.groundsdk.device.peripheral.Updater$Update
  com.parrot.drone.groundsdk.device.peripheral.Updater$Update$State
  com.parrot.drone.groundsdk.device.peripheral.Updater$Update$UnavailabilityReason
-com/parrot/drone/groundsdk/internal/device/peripheral/camera/CameraPhotoStateCore.java
- com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraPhotoStateCore
-com/parrot/drone/groundsdk/internal/engine/flightdata/FlightDataEngine.java
- com.parrot.drone.groundsdk.internal.engine.flightdata.FlightDataEngine
 com/parrot/drone/groundsdk/internal/io/IoStreams.java
  com.parrot.drone.groundsdk.internal.io.IoStreams
  com.parrot.drone.groundsdk.internal.io.IoStreams$1
@@ -578,12 +578,12 @@ com/parrot/drone/groundsdk/internal/device/pilotingitf/animation/ParabolaCore.ja
  com.parrot.drone.groundsdk.internal.device.pilotingitf.animation.ParabolaCore
 com/parrot/drone/groundsdk/mavlink/LandCommand.java
  com.parrot.drone.groundsdk.mavlink.LandCommand
+com/parrot/drone/groundsdk/internal/device/peripheral/stream/MediaReplayCore.java
+ com.parrot.drone.groundsdk.internal.device.peripheral.stream.MediaReplayCore
 com/parrot/drone/groundsdk/internal/device/peripheral/ThermalControlCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.ThermalControlCore
  com.parrot.drone.groundsdk.internal.device.peripheral.ThermalControlCore$Backend
  com.parrot.drone.groundsdk.internal.device.peripheral.ThermalControlCore$CalibrationCore
-com/parrot/drone/groundsdk/internal/device/peripheral/stream/MediaReplayCore.java
- com.parrot.drone.groundsdk.internal.device.peripheral.stream.MediaReplayCore
 com/parrot/drone/groundsdk/internal/device/pilotingitf/animation/AnimationCore.java
  com.parrot.drone.groundsdk.internal.device.pilotingitf.animation.AnimationCore
  com.parrot.drone.groundsdk.internal.device.pilotingitf.animation.AnimationCore$1
@@ -601,11 +601,11 @@ com/parrot/drone/groundsdk/BuildConfig.java
  com.parrot.drone.groundsdk.BuildConfig
 com/parrot/drone/groundsdk/internal/tasks/Executor.java
  com.parrot.drone.groundsdk.internal.tasks.Executor
+com/parrot/drone/groundsdk/internal/engine/firmware/FirmwareStoreCore.java
+ com.parrot.drone.groundsdk.internal.engine.firmware.FirmwareStoreCore
 com/parrot/drone/groundsdk/device/peripheral/Geofence.java
  com.parrot.drone.groundsdk.device.peripheral.Geofence
  com.parrot.drone.groundsdk.device.peripheral.Geofence$Mode
-com/parrot/drone/groundsdk/internal/engine/firmware/FirmwareStoreCore.java
- com.parrot.drone.groundsdk.internal.engine.firmware.FirmwareStoreCore
 com/parrot/drone/groundsdk/device/peripheral/media/MediaDeleter.java
  com.parrot.drone.groundsdk.device.peripheral.media.MediaDeleter
 com/parrot/drone/groundsdk/internal/utility/UserAccountInfo.java
@@ -710,12 +710,12 @@ com/parrot/drone/groundsdk/device/pilotingitf/animation/DollySlide.java
 com/parrot/drone/groundsdk/internal/engine/EnginesController.java
  com.parrot.drone.groundsdk.internal.engine.EnginesController
  com.parrot.drone.groundsdk.internal.engine.EnginesController$OnStopListener
-com/parrot/drone/groundsdk/internal/stream/FileReplayRef.java
- com.parrot.drone.groundsdk.internal.stream.FileReplayRef
 com/parrot/drone/groundsdk/device/peripheral/BatteryGaugeUpdater.java
  com.parrot.drone.groundsdk.device.peripheral.BatteryGaugeUpdater
  com.parrot.drone.groundsdk.device.peripheral.BatteryGaugeUpdater$State
  com.parrot.drone.groundsdk.device.peripheral.BatteryGaugeUpdater$UnavailabilityReason
+com/parrot/drone/groundsdk/internal/stream/FileReplayRef.java
+ com.parrot.drone.groundsdk.internal.stream.FileReplayRef
 com/parrot/drone/groundsdk/internal/device/peripheral/MagnetometerWith1StepCalibrationCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.MagnetometerWith1StepCalibrationCore
  com.parrot.drone.groundsdk.internal.device.peripheral.MagnetometerWith1StepCalibrationCore$1
@@ -725,12 +725,12 @@ com/parrot/drone/groundsdk/device/peripheral/CopterMotors.java
  com.parrot.drone.groundsdk.device.peripheral.CopterMotors$Motor
 com/parrot/drone/groundsdk/internal/engine/blackbox/ArchiveJob.java
  com.parrot.drone.groundsdk.internal.engine.blackbox.ArchiveJob
-com/parrot/drone/groundsdk/internal/http/RequestBodyInterceptor.java
- com.parrot.drone.groundsdk.internal.http.RequestBodyInterceptor
- com.parrot.drone.groundsdk.internal.http.RequestBodyInterceptor$CapturableRequestBody
 com/parrot/drone/groundsdk/device/RemoteControl.java
  com.parrot.drone.groundsdk.device.RemoteControl
  com.parrot.drone.groundsdk.device.RemoteControl$Model
+com/parrot/drone/groundsdk/internal/http/RequestBodyInterceptor.java
+ com.parrot.drone.groundsdk.internal.http.RequestBodyInterceptor
+ com.parrot.drone.groundsdk.internal.http.RequestBodyInterceptor$CapturableRequestBody
 com/parrot/drone/groundsdk/hmd/LensProjection.java
  com.parrot.drone.groundsdk.hmd.LensProjection
 com/parrot/drone/groundsdk/internal/device/instrument/AttitudeIndicatorCore.java
@@ -773,22 +773,22 @@ com/parrot/drone/groundsdk/internal/device/peripheral/MagnetometerCore.java
 com/parrot/drone/groundsdk/internal/device/peripheral/tracking/TargetTrackerCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.tracking.TargetTrackerCore
  com.parrot.drone.groundsdk.internal.device.peripheral.tracking.TargetTrackerCore$Backend
+com/parrot/drone/groundsdk/internal/engine/system/SystemEngine.java
+ com.parrot.drone.groundsdk.internal.engine.system.SystemEngine
 com/parrot/drone/groundsdk/internal/device/pilotingitf/FollowMePilotingItfCore.java
  com.parrot.drone.groundsdk.internal.device.pilotingitf.FollowMePilotingItfCore
  com.parrot.drone.groundsdk.internal.device.pilotingitf.FollowMePilotingItfCore$Backend
-com/parrot/drone/groundsdk/internal/engine/system/SystemEngine.java
- com.parrot.drone.groundsdk.internal.engine.system.SystemEngine
 com/parrot/drone/groundsdk/internal/device/peripheral/camera/CameraCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraCore
  com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraCore$1
  com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraCore$Backend
+com/parrot/drone/groundsdk/value/OptionalValue.java
+ com.parrot.drone.groundsdk.value.OptionalValue
 com/parrot/drone/groundsdk/internal/stream/ReplayCore.java
  com.parrot.drone.groundsdk.internal.stream.ReplayCore
  com.parrot.drone.groundsdk.internal.stream.ReplayCore$1
  com.parrot.drone.groundsdk.internal.stream.ReplayCore$2
  com.parrot.drone.groundsdk.internal.stream.ReplayCore$3
-com/parrot/drone/groundsdk/value/OptionalValue.java
- com.parrot.drone.groundsdk.value.OptionalValue
 com/parrot/drone/groundsdk/internal/http/HttpFirmwaresInfo.java
  com.parrot.drone.groundsdk.internal.http.HttpFirmwaresInfo
  com.parrot.drone.groundsdk.internal.http.HttpFirmwaresInfo$BlackListEntry
@@ -808,13 +808,13 @@ com/parrot/drone/groundsdk/internal/facility/AutoConnectionCore.java
  com.parrot.drone.groundsdk.internal.facility.AutoConnectionCore
  com.parrot.drone.groundsdk.internal.facility.AutoConnectionCore$1
  com.parrot.drone.groundsdk.internal.facility.AutoConnectionCore$Backend
+com/parrot/drone/groundsdk/internal/engine/flightlog/FlightLogStorageCore.java
+ com.parrot.drone.groundsdk.internal.engine.flightlog.FlightLogStorageCore
 com/parrot/drone/groundsdk/device/instrument/Alarms.java
  com.parrot.drone.groundsdk.device.instrument.Alarms
  com.parrot.drone.groundsdk.device.instrument.Alarms$Alarm
  com.parrot.drone.groundsdk.device.instrument.Alarms$Alarm$Kind
  com.parrot.drone.groundsdk.device.instrument.Alarms$Alarm$Level
-com/parrot/drone/groundsdk/internal/engine/flightlog/FlightLogStorageCore.java
- com.parrot.drone.groundsdk.internal.engine.flightlog.FlightLogStorageCore
 com/parrot/drone/groundsdk/device/pilotingitf/PilotingItf.java
  com.parrot.drone.groundsdk.device.pilotingitf.PilotingItf
  com.parrot.drone.groundsdk.device.pilotingitf.PilotingItf$Provider
@@ -830,11 +830,11 @@ com/parrot/drone/groundsdk/device/peripheral/gamepad/skycontroller3/ButtonEvent.
  com.parrot.drone.groundsdk.device.peripheral.gamepad.skycontroller3.ButtonEvent
  com.parrot.drone.groundsdk.device.peripheral.gamepad.skycontroller3.ButtonEvent$Listener
  com.parrot.drone.groundsdk.device.peripheral.gamepad.skycontroller3.ButtonEvent$State
+com/parrot/drone/groundsdk/internal/engine/flightlog/CollectJob.java
+ com.parrot.drone.groundsdk.internal.engine.flightlog.CollectJob
 com/parrot/drone/groundsdk/internal/device/peripheral/PreciseHomeCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.PreciseHomeCore
  com.parrot.drone.groundsdk.internal.device.peripheral.PreciseHomeCore$Backend
-com/parrot/drone/groundsdk/internal/engine/flightlog/CollectJob.java
- com.parrot.drone.groundsdk.internal.engine.flightlog.CollectJob
 com/parrot/drone/groundsdk/internal/device/peripheral/camera/CameraStyleSettingCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraStyleSettingCore
  com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraStyleSettingCore$Backend
@@ -938,11 +938,11 @@ com/parrot/drone/groundsdk/internal/device/peripheral/wifi/ChannelSettingCore.ja
  com.parrot.drone.groundsdk.internal.device.peripheral.wifi.ChannelSettingCore$Backend
 com/parrot/drone/groundsdk/internal/tasks/TaskGroup.java
  com.parrot.drone.groundsdk.internal.tasks.TaskGroup
+com/parrot/drone/groundsdk/internal/engine/activation/Persistence.java
+ com.parrot.drone.groundsdk.internal.engine.activation.Persistence
 com/parrot/drone/groundsdk/internal/value/OptionalBooleanSettingCore.java
  com.parrot.drone.groundsdk.internal.value.OptionalBooleanSettingCore
  com.parrot.drone.groundsdk.internal.value.OptionalBooleanSettingCore$Backend
-com/parrot/drone/groundsdk/internal/engine/activation/Persistence.java
- com.parrot.drone.groundsdk.internal.engine.activation.Persistence
 com/parrot/drone/groundsdk/device/peripheral/LogControl.java
  com.parrot.drone.groundsdk.device.peripheral.LogControl
 com/parrot/drone/groundsdk/mavlink/StopPhotoCaptureCommand.java
@@ -972,12 +972,12 @@ com/parrot/drone/groundsdk/internal/tasks/BackgroundThreadScheduler.java
  com.parrot.drone.groundsdk.internal.tasks.BackgroundThreadScheduler
  com.parrot.drone.groundsdk.internal.tasks.BackgroundThreadScheduler$Default
  com.parrot.drone.groundsdk.internal.tasks.BackgroundThreadScheduler$Default$1
-com/parrot/drone/groundsdk/internal/session/ManagedSession.java
- com.parrot.drone.groundsdk.internal.session.ManagedSession
 com/parrot/drone/groundsdk/device/peripheral/PreciseHome.java
  com.parrot.drone.groundsdk.device.peripheral.PreciseHome
  com.parrot.drone.groundsdk.device.peripheral.PreciseHome$Mode
  com.parrot.drone.groundsdk.device.peripheral.PreciseHome$State
+com/parrot/drone/groundsdk/internal/session/ManagedSession.java
+ com.parrot.drone.groundsdk.internal.session.ManagedSession
 com/parrot/drone/groundsdk/internal/RcAccessoryBootstrapActivity.java
  com.parrot.drone.groundsdk.internal.RcAccessoryBootstrapActivity
 com/parrot/drone/groundsdk/internal/device/DeviceCore.java
@@ -1005,6 +1005,9 @@ com/parrot/drone/groundsdk/internal/engine/system/MonitorableCore.java
 com/parrot/drone/groundsdk/internal/device/pilotingitf/ActivablePilotingItfCore.java
  com.parrot.drone.groundsdk.internal.device.pilotingitf.ActivablePilotingItfCore
  com.parrot.drone.groundsdk.internal.device.pilotingitf.ActivablePilotingItfCore$Backend
+com/parrot/drone/groundsdk/internal/engine/activation/ActivationEngine.java
+ com.parrot.drone.groundsdk.internal.engine.activation.ActivationEngine
+ com.parrot.drone.groundsdk.internal.engine.activation.ActivationEngine$1
 com/parrot/drone/groundsdk/device/peripheral/Gimbal.java
  com.parrot.drone.groundsdk.device.peripheral.Gimbal
  com.parrot.drone.groundsdk.device.peripheral.Gimbal$Axis
@@ -1013,9 +1016,6 @@ com/parrot/drone/groundsdk/device/peripheral/Gimbal.java
  com.parrot.drone.groundsdk.device.peripheral.Gimbal$Error
  com.parrot.drone.groundsdk.device.peripheral.Gimbal$FrameOfReference
  com.parrot.drone.groundsdk.device.peripheral.Gimbal$OffsetCorrectionProcess
-com/parrot/drone/groundsdk/internal/engine/activation/ActivationEngine.java
- com.parrot.drone.groundsdk.internal.engine.activation.ActivationEngine
- com.parrot.drone.groundsdk.internal.engine.activation.ActivationEngine$1
 com/parrot/drone/groundsdk/stream/FileReplay.java
  com.parrot.drone.groundsdk.stream.FileReplay
  com.parrot.drone.groundsdk.stream.FileReplay$Source
@@ -1049,14 +1049,14 @@ com/parrot/drone/groundsdk/internal/device/peripheral/wifi/CountrySettingCore.ja
  com.parrot.drone.groundsdk.internal.device.peripheral.wifi.CountrySettingCore$Backend
 com/parrot/drone/groundsdk/internal/device/pilotingitf/animation/VertigoCore.java
  com.parrot.drone.groundsdk.internal.device.pilotingitf.animation.VertigoCore
+com/parrot/drone/groundsdk/internal/facility/UserLocationCore.java
+ com.parrot.drone.groundsdk.internal.facility.UserLocationCore
+ com.parrot.drone.groundsdk.internal.facility.UserLocationCore$Backend
 com/parrot/drone/groundsdk/internal/http/HttpActivationClient.java
  com.parrot.drone.groundsdk.internal.http.HttpActivationClient
  com.parrot.drone.groundsdk.internal.http.HttpActivationClient$1
  com.parrot.drone.groundsdk.internal.http.HttpActivationClient$HttpDevice
  com.parrot.drone.groundsdk.internal.http.HttpActivationClient$Service
-com/parrot/drone/groundsdk/internal/facility/UserLocationCore.java
- com.parrot.drone.groundsdk.internal.facility.UserLocationCore
- com.parrot.drone.groundsdk.internal.facility.UserLocationCore$Backend
 com/parrot/drone/groundsdk/internal/engine/ExternalEngines.java
  com.parrot.drone.groundsdk.internal.engine.ExternalEngines
 com/parrot/drone/groundsdk/internal/package-info.java
@@ -1251,12 +1251,12 @@ com/parrot/drone/groundsdk/internal/engine/firmware/FirmwareInfoCore.java
 com/parrot/drone/groundsdk/device/peripheral/PilotingControl.java
  com.parrot.drone.groundsdk.device.peripheral.PilotingControl
  com.parrot.drone.groundsdk.device.peripheral.PilotingControl$Behavior
-com/parrot/drone/groundsdk/device/peripheral/gamepad/ButtonsMappableAction.java
- com.parrot.drone.groundsdk.device.peripheral.gamepad.ButtonsMappableAction
 com/parrot/drone/groundsdk/internal/engine/system/SystemHeadingCore.java
  com.parrot.drone.groundsdk.internal.engine.system.SystemHeadingCore
  com.parrot.drone.groundsdk.internal.engine.system.SystemHeadingCore$1
  com.parrot.drone.groundsdk.internal.engine.system.SystemHeadingCore$2
+com/parrot/drone/groundsdk/device/peripheral/gamepad/ButtonsMappableAction.java
+ com.parrot.drone.groundsdk.device.peripheral.gamepad.ButtonsMappableAction
 com/parrot/drone/groundsdk/GroundSdk.java
  com.parrot.drone.groundsdk.GroundSdk
  com.parrot.drone.groundsdk.GroundSdk$OnDeviceRemovedListener
@@ -1279,13 +1279,13 @@ com/parrot/drone/groundsdk/hmd/Overlay.java
  com.parrot.drone.groundsdk.hmd.Overlay$GlRenderer
 com/parrot/drone/groundsdk/value/DoubleSetting.java
  com.parrot.drone.groundsdk.value.DoubleSetting
+com/parrot/drone/groundsdk/internal/utility/FlightDataStorage.java
+ com.parrot.drone.groundsdk.internal.utility.FlightDataStorage
 com/parrot/drone/groundsdk/stream/TextureLoader.java
  com.parrot.drone.groundsdk.stream.TextureLoader
  com.parrot.drone.groundsdk.stream.TextureLoader$FrameContext
  com.parrot.drone.groundsdk.stream.TextureLoader$TextureContext
  com.parrot.drone.groundsdk.stream.TextureLoader$TextureSpec
-com/parrot/drone/groundsdk/internal/utility/FlightDataStorage.java
- com.parrot.drone.groundsdk.internal.utility.FlightDataStorage
 com/parrot/drone/groundsdk/internal/device/peripheral/media/MediaThumbnailRef.java
  com.parrot.drone.groundsdk.internal.device.peripheral.media.MediaThumbnailRef
 com/parrot/drone/groundsdk/device/pilotingitf/GuidedPilotingItf.java
@@ -1319,14 +1319,14 @@ com/parrot/drone/groundsdk/internal/engine/EngineBase.java
  com.parrot.drone.groundsdk.internal.engine.EngineBase$State
 com/parrot/drone/groundsdk/internal/component/SingletonComponentCore.java
  com.parrot.drone.groundsdk.internal.component.SingletonComponentCore
-com/parrot/drone/groundsdk/internal/facility/FlightLogReporterCore.java
- com.parrot.drone.groundsdk.internal.facility.FlightLogReporterCore
 com/parrot/drone/groundsdk/internal/engine/crashreport/CrashReportStorageCore.java
  com.parrot.drone.groundsdk.internal.engine.crashreport.CrashReportStorageCore
  com.parrot.drone.groundsdk.internal.engine.crashreport.CrashReportStorageCore$1
  com.parrot.drone.groundsdk.internal.engine.crashreport.CrashReportStorageCore$2
  com.parrot.drone.groundsdk.internal.engine.crashreport.CrashReportStorageCore$Entry
  com.parrot.drone.groundsdk.internal.engine.crashreport.CrashReportStorageCore$Report
+com/parrot/drone/groundsdk/internal/facility/FlightLogReporterCore.java
+ com.parrot.drone.groundsdk.internal.facility.FlightLogReporterCore
 com/parrot/drone/groundsdk/internal/engine/AutoConnectionEngine.java
  com.parrot.drone.groundsdk.internal.engine.AutoConnectionEngine
  com.parrot.drone.groundsdk.internal.engine.AutoConnectionEngine$1
@@ -1345,13 +1345,13 @@ com/parrot/drone/groundsdk/device/peripheral/wifi/Channel.java
 com/parrot/drone/groundsdk/facility/firmware/FirmwareInfo.java
  com.parrot.drone.groundsdk.facility.firmware.FirmwareInfo
  com.parrot.drone.groundsdk.facility.firmware.FirmwareInfo$Attribute
-com/parrot/drone/groundsdk/internal/device/peripheral/camera/CameraAlignmentSettingCore.java
- com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraAlignmentSettingCore
- com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraAlignmentSettingCore$Backend
 com/parrot/drone/groundsdk/internal/engine/firmware/FirmwareDownloaderCore.java
  com.parrot.drone.groundsdk.internal.engine.firmware.FirmwareDownloaderCore
  com.parrot.drone.groundsdk.internal.engine.firmware.FirmwareDownloaderCore$1
  com.parrot.drone.groundsdk.internal.engine.firmware.FirmwareDownloaderCore$Task
+com/parrot/drone/groundsdk/internal/device/peripheral/camera/CameraAlignmentSettingCore.java
+ com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraAlignmentSettingCore
+ com.parrot.drone.groundsdk.internal.device.peripheral.camera.CameraAlignmentSettingCore$Backend
 com/parrot/drone/groundsdk/hmd/CameraLayer.java
  com.parrot.drone.groundsdk.hmd.CameraLayer
  com.parrot.drone.groundsdk.hmd.CameraLayer$GlRenderer
@@ -1387,10 +1387,10 @@ com/parrot/drone/groundsdk/internal/engine/blackbox/BlackBoxEngine.java
  com.parrot.drone.groundsdk.internal.engine.blackbox.BlackBoxEngine$1
 com/parrot/drone/groundsdk/internal/device/peripheral/media/MediaListRef.java
  com.parrot.drone.groundsdk.internal.device.peripheral.media.MediaListRef
-com/parrot/drone/groundsdk/internal/value/DoubleRangeCore.java
- com.parrot.drone.groundsdk.internal.value.DoubleRangeCore
 com/parrot/drone/groundsdk/device/peripheral/media/MediaTaskStatus.java
  com.parrot.drone.groundsdk.device.peripheral.media.MediaTaskStatus
+com/parrot/drone/groundsdk/internal/value/DoubleRangeCore.java
+ com.parrot.drone.groundsdk.internal.value.DoubleRangeCore
 com/parrot/drone/groundsdk/internal/device/peripheral/MagnetometerWith3StepCalibrationCore.java
  com.parrot.drone.groundsdk.internal.device.peripheral.MagnetometerWith3StepCalibrationCore
  com.parrot.drone.groundsdk.internal.device.peripheral.MagnetometerWith3StepCalibrationCore$1

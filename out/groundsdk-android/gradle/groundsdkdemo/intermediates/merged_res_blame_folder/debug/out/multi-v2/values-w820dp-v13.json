@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdkdemo/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "38,39",
                         "startColumns": "4,4",

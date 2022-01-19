@@ -1,683 +1,683 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-MERGED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:33:1-53:12
-MERGED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:33:1-77:12
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:33:1-55:12
-MERGED from [com.google.android.material:material:1.3.0] /home/marlin/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/marlin/.gradle/caches/transforms-3/8b30691de29258138bfe89e8c1233093/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/marlin/.gradle/caches/transforms-3/4803c9f47a5ee07db499a4669aec6bc2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/marlin/.gradle/caches/transforms-3/c693848ffe90ffc3e7b2d0b291e90d61/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/marlin/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/marlin/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/marlin/.gradle/caches/transforms-3/7466fc56941c96b8ee8dd384f5c0702e/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/marlin/.gradle/caches/transforms-3/4606c96e37af80b51faebb160f698a94/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/marlin/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/marlin/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/marlin/.gradle/caches/transforms-3/e1e810401e567527ed4e39d78b3d74c3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] /home/marlin/.gradle/caches/transforms-3/c4a4f8682933b282a0a4a4ffe6c98dcb/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/marlin/.gradle/caches/transforms-3/2c34b3853570e6f989aae4bcc2dab30f/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/marlin/.gradle/caches/transforms-3/80df44330c294f717b87d319df30e0d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/marlin/.gradle/caches/transforms-3/19c0e85733cb243023c82c8167d7be7b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/marlin/.gradle/caches/transforms-3/dab84db5777d4ddba1e26e3431197893/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/marlin/.gradle/caches/transforms-3/d38c3f32ef30ad389d80bd3fd5f7c4d8/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /home/marlin/.gradle/caches/transforms-3/b791b777e11362a5acf515da091772d4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/marlin/.gradle/caches/transforms-3/1636e41786bbc402c4a0fdb0a5e6a085/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/marlin/.gradle/caches/transforms-3/e8efad4fbb6f30efef491d307f14f32f/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/marlin/.gradle/caches/transforms-3/ff08dfde34e347ee9a36b2f0d23c0808/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/marlin/.gradle/caches/transforms-3/33d45d24ad1182df9c00b66496dba263/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/marlin/.gradle/caches/transforms-3/02a5b6428b35b1ff166410959a154a36/transformed/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/marlin/.gradle/caches/transforms-3/66528367322262f4bf4275b6116536f2/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/marlin/.gradle/caches/transforms-3/599f33e06bbb86a39d2bfc948c5fa73c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/marlin/.gradle/caches/transforms-3/b1739771768736faaceffab8bdb63643/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/marlin/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/marlin/.gradle/caches/transforms-3/c1314e7353ff5b1087485bc68d2ab550/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/marlin/.gradle/caches/transforms-3/284c0bd0b4ac5d6874c95a16bee75bd1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/marlin/.gradle/caches/transforms-3/ffb1955d01e32e98fb05147f4ee305d7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/marlin/.gradle/caches/transforms-3/90a7a8931e01a0ee699ea84f1eec69e2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/marlin/.gradle/caches/transforms-3/2b33b9b821575937f499710a4b2dfe94/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/marlin/.gradle/caches/transforms-3/1cecee935e01d857a041e241f28ddaec/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/marlin/.gradle/caches/transforms-3/c7c20cceb6b003f2066890739eea01c5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/marlin/.gradle/caches/transforms-3/7701400bc34fc9efa0daa502575f45b4/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/marlin/.gradle/caches/transforms-3/44429aa97ad9eec0aa929116bb6f47eb/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+MERGED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:33:1-53:12
+MERGED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:33:1-77:12
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:33:1-55:12
+MERGED from [com.google.android.material:material:1.3.0] /home/oldrich/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/oldrich/.gradle/caches/transforms-3/8b30691de29258138bfe89e8c1233093/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/oldrich/.gradle/caches/transforms-3/4803c9f47a5ee07db499a4669aec6bc2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/oldrich/.gradle/caches/transforms-3/c693848ffe90ffc3e7b2d0b291e90d61/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/oldrich/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/oldrich/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/oldrich/.gradle/caches/transforms-3/7466fc56941c96b8ee8dd384f5c0702e/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/oldrich/.gradle/caches/transforms-3/4606c96e37af80b51faebb160f698a94/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/oldrich/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/oldrich/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/oldrich/.gradle/caches/transforms-3/e1e810401e567527ed4e39d78b3d74c3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/oldrich/.gradle/caches/transforms-3/c4a4f8682933b282a0a4a4ffe6c98dcb/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/oldrich/.gradle/caches/transforms-3/2c34b3853570e6f989aae4bcc2dab30f/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/oldrich/.gradle/caches/transforms-3/80df44330c294f717b87d319df30e0d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/19c0e85733cb243023c82c8167d7be7b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/oldrich/.gradle/caches/transforms-3/dab84db5777d4ddba1e26e3431197893/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/oldrich/.gradle/caches/transforms-3/d38c3f32ef30ad389d80bd3fd5f7c4d8/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/oldrich/.gradle/caches/transforms-3/b791b777e11362a5acf515da091772d4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/oldrich/.gradle/caches/transforms-3/1636e41786bbc402c4a0fdb0a5e6a085/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/oldrich/.gradle/caches/transforms-3/e8efad4fbb6f30efef491d307f14f32f/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/oldrich/.gradle/caches/transforms-3/ff08dfde34e347ee9a36b2f0d23c0808/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/oldrich/.gradle/caches/transforms-3/33d45d24ad1182df9c00b66496dba263/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/oldrich/.gradle/caches/transforms-3/02a5b6428b35b1ff166410959a154a36/transformed/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /home/oldrich/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/oldrich/.gradle/caches/transforms-3/66528367322262f4bf4275b6116536f2/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/oldrich/.gradle/caches/transforms-3/599f33e06bbb86a39d2bfc948c5fa73c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/oldrich/.gradle/caches/transforms-3/b1739771768736faaceffab8bdb63643/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/oldrich/.gradle/caches/transforms-3/c1314e7353ff5b1087485bc68d2ab550/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/oldrich/.gradle/caches/transforms-3/284c0bd0b4ac5d6874c95a16bee75bd1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/oldrich/.gradle/caches/transforms-3/ffb1955d01e32e98fb05147f4ee305d7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/oldrich/.gradle/caches/transforms-3/90a7a8931e01a0ee699ea84f1eec69e2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/oldrich/.gradle/caches/transforms-3/2b33b9b821575937f499710a4b2dfe94/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/oldrich/.gradle/caches/transforms-3/1cecee935e01d857a041e241f28ddaec/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/oldrich/.gradle/caches/transforms-3/c7c20cceb6b003f2066890739eea01c5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/oldrich/.gradle/caches/transforms-3/7701400bc34fc9efa0daa502575f45b4/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/oldrich/.gradle/caches/transforms-3/44429aa97ad9eec0aa929116bb6f47eb/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
 	package
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:38:5-45
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:38:5-45
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:37:5-51
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:37:5-51
 	android:versionCode
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:35:1-232:12
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:36:5-63
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:36:5-63
 uses-permission#android.permission.CAMERA
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:40:5-64
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:40:5-64
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:40:22-62
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:40:22-62
 application
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:42:5-230:19
-MERGED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-51:19
-MERGED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-51:19
-MERGED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:59:5-75:19
-MERGED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:59:5-75:19
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:53:5-60
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:53:5-60
-MERGED from [com.google.android.material:material:1.3.0] /home/marlin/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.3.0] /home/marlin/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/marlin/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/marlin/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/marlin/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/marlin/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/marlin/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/marlin/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/marlin/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/marlin/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/marlin/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/marlin/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:42:5-230:19
+MERGED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-51:19
+MERGED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-51:19
+MERGED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:59:5-75:19
+MERGED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:59:5-75:19
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:53:5-60
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:53:5-60
+MERGED from [com.google.android.material:material:1.3.0] /home/oldrich/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/oldrich/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/oldrich/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/oldrich/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/oldrich/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/oldrich/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/oldrich/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/oldrich/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/oldrich/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/oldrich/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] /home/oldrich/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/oldrich/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:43:9-52
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:43:9-52
 	android:extractNativeLibs
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:45:9-42
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:45:9-42
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] /home/oldrich/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:48:9-35
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:48:9-35
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:47:9-41
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:47:9-41
 	tools:ignore
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:50:9-48
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:50:9-48
 	tools:targetApi
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:51:9-29
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:51:9-29
 	android:icon
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:46:9-43
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:46:9-43
 	android:allowBackup
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:44:9-36
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:44:9-36
 	android:networkSecurityConfig
-		ADDED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-69
+		ADDED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-69
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:49:9-47
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:49:9-47
 activity#com.parrot.drone.groundsdkdemo.DeviceListActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:52:9-60:20
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:52:9-60:20
 	android:launchMode
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:54:13-43
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:54:13-43
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:55:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:53:13-47
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:53:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:56:13-59:29
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:56:13-59:29
 action#android.intent.action.MAIN
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:57:17-68
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:57:17-68
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:57:25-66
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:58:17-76
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:58:17-76
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:58:27-74
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:58:27-74
 activity#com.parrot.drone.groundsdkdemo.info.FacilitiesInfoActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:62:9-65:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:62:9-65:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:64:13-62
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:64:13-62
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:65:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:65:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:63:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:63:13-56
 activity#com.parrot.drone.groundsdkdemo.info.DroneInfoActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:66:9-68:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:66:9-68:46
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:68:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:68:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:67:13-51
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:67:13-51
 activity#com.parrot.drone.groundsdkdemo.info.RCInfoActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:69:9-71:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:69:9-71:46
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:71:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:71:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:70:13-48
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:70:13-48
 activity#com.parrot.drone.groundsdkdemo.settings.ManualCopterSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:72:9-75:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:72:9-75:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:74:13-74
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:74:13-74
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:75:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:75:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:73:13-66
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:73:13-66
 activity#com.parrot.drone.groundsdkdemo.peripheral.Magnetometer3StepCalibrationActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:76:9-79:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:76:9-79:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:78:13-76
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:78:13-76
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:79:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:79:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:77:13-76
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:77:13-76
 activity#com.parrot.drone.groundsdkdemo.peripheral.Magnetometer1StepCalibrationActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:80:9-83:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:80:9-83:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:82:13-76
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:82:13-76
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:83:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:83:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:81:13-76
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:81:13-76
 activity#com.parrot.drone.groundsdkdemo.settings.ReturnHomeSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:84:9-87:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:84:9-87:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:86:13-72
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:86:13-72
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:87:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:87:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:85:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:85:13-64
 activity#com.parrot.drone.groundsdkdemo.hud.CopterHudActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:88:9-91:58
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:88:9-91:58
 	android:screenOrientation
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:90:13-50
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:90:13-50
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:91:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:91:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:89:13-50
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:89:13-50
 activity#com.parrot.drone.groundsdkdemo.peripheral.DroneFinderActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:92:9-95:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:92:9-95:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:94:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:94:13-64
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:95:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:95:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:93:13-59
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:93:13-59
 activity#com.parrot.drone.groundsdkdemo.peripheral.VideoStreamActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:96:9-98:58
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:96:9-98:58
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:98:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:98:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:97:13-59
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:97:13-59
 activity#com.parrot.drone.groundsdkdemo.peripheral.ThermalStreamActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:99:9-101:58
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:99:9-101:58
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:101:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:101:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:100:13-61
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:100:13-61
 activity#com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:102:9-105:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:102:9-105:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:104:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:104:13-64
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:105:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:105:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:103:13-71
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:103:13-71
 activity#com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadGrabActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:106:9-109:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:106:9-109:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:108:13-60
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:108:13-60
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:109:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:109:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:107:13-67
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:107:13-67
 activity#com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadMappingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:110:9-113:58
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:110:9-113:58
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:112:13-63
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:112:13-63
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:113:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:113:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:111:13-71
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:111:13-71
 activity#com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadEditMappingActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:114:9-116:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:114:9-116:46
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:116:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:116:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:115:13-74
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:115:13-74
 activity#com.parrot.drone.groundsdkdemo.peripheral.gamepad.GamepadAxesSetupActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:117:9-120:58
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:117:9-120:58
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:119:13-66
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:119:13-66
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:120:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:120:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:118:13-72
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:118:13-72
 activity#com.parrot.drone.groundsdkdemo.settings.CopilotSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:121:9-124:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:121:9-124:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:123:13-59
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:123:13-59
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:124:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:124:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:122:13-61
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:122:13-61
 activity#com.parrot.drone.groundsdkdemo.settings.PilotingControlSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:125:9-128:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:125:9-128:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:127:13-68
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:127:13-68
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:128:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:128:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:126:13-69
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:126:13-69
 activity#com.parrot.drone.groundsdkdemo.peripheral.MediaStoreBrowserActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:129:9-132:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:129:9-132:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:131:13-65
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:131:13-65
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:132:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:132:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:130:13-65
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:130:13-65
 activity#com.parrot.drone.groundsdkdemo.peripheral.DebugSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:133:9-136:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:133:9-136:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:135:13-66
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:135:13-66
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:136:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:136:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:134:13-61
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:134:13-61
 activity#com.parrot.drone.groundsdkdemo.settings.FlightPlanSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:137:9-140:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:137:9-140:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:139:13-72
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:139:13-72
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:140:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:140:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:138:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:138:13-64
 activity#com.parrot.drone.groundsdkdemo.edit.GuidedEditActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:141:9-144:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:141:9-144:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:143:13-63
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:143:13-63
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:144:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:144:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:142:13-52
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:142:13-52
 activity#com.parrot.drone.groundsdkdemo.edit.PointOfInterestEditActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:145:9-148:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:145:9-148:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:147:13-60
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:147:13-60
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:148:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:148:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:146:13-61
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:146:13-61
 activity#com.parrot.drone.groundsdkdemo.settings.FollowMeSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:149:9-152:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:149:9-152:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:151:13-70
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:151:13-70
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:152:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:152:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:150:13-62
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:150:13-62
 activity#com.parrot.drone.groundsdkdemo.settings.WifiAccessPointSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:153:9-156:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:153:9-156:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:155:13-68
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:155:13-68
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:156:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:156:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:154:13-69
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:154:13-69
 activity#com.parrot.drone.groundsdkdemo.settings.TargetTrackerSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:157:9-160:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:157:9-160:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:159:13-75
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:159:13-75
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:160:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:160:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:158:13-67
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:158:13-67
 activity#com.parrot.drone.groundsdkdemo.settings.CameraSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:162:9-165:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:162:9-165:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:164:13-67
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:164:13-67
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:165:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:165:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:163:13-60
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:163:13-60
 activity#com.parrot.drone.groundsdkdemo.settings.GimbalSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:166:9-169:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:166:9-169:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:168:13-67
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:168:13-67
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:169:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:169:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:167:13-60
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:167:13-60
 activity#com.parrot.drone.groundsdkdemo.settings.GimbalOffsetsCorrectionActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:170:9-173:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:170:9-173:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:172:13-77
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:172:13-77
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:173:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:173:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:171:13-69
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:171:13-69
 activity#com.parrot.drone.groundsdkdemo.peripheral.GimbalCalibrationActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:174:9-177:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:174:9-177:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:176:13-70
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:176:13-70
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:177:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:177:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:175:13-65
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:175:13-65
 activity#com.parrot.drone.groundsdkdemo.settings.AntiFlickerSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:179:9-182:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:179:9-182:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:181:13-72
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:181:13-72
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:182:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:182:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:180:13-65
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:180:13-65
 activity#com.parrot.drone.groundsdkdemo.settings.GeofenceSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:184:9-187:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:184:9-187:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:186:13-69
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:186:13-69
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:187:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:187:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:185:13-62
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:185:13-62
 activity#com.parrot.drone.groundsdkdemo.settings.LedsSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:189:9-192:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:189:9-192:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:191:13-65
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:191:13-65
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:192:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:192:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:190:13-58
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:190:13-58
 activity#com.parrot.drone.groundsdkdemo.facility.FirmwareManagerActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:194:9-197:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:194:9-197:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:196:13-68
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:196:13-68
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:197:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:197:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:195:13-61
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:195:13-61
 activity#com.parrot.drone.groundsdkdemo.settings.PreciseHomeSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:199:9-202:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:199:9-202:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:201:13-73
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:201:13-73
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:202:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:202:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:200:13-65
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:200:13-65
 activity#com.parrot.drone.groundsdkdemo.settings.ThermalSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:204:9-207:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:204:9-207:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:206:13-68
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:206:13-68
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:207:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:207:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:205:13-61
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:205:13-61
 activity#com.parrot.drone.groundsdkdemo.facility.UserAccountActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:209:9-212:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:209:9-212:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:211:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:211:13-64
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:212:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:212:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:210:13-57
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:210:13-57
 activity#com.parrot.drone.groundsdkdemo.peripheral.MediaReplayActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:214:9-216:58
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:214:9-216:58
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:216:13-56
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:216:13-56
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:215:13-59
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:215:13-59
 activity#com.parrot.drone.groundsdkdemo.hud.HmdActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:218:9-220:57
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:218:9-220:57
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:220:13-55
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:220:13-55
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:219:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:219:13-44
 activity#com.parrot.drone.groundsdkdemo.settings.DriSettingsActivity
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:222:9-225:46
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:222:9-225:46
 	android:label
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:224:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:224:13-64
 	android:theme
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:225:13-44
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:225:13-44
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:223:13-57
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:223:13-57
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:227:9-229:66
+ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:227:9-229:66
 	android:value
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:229:13-64
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:229:13-64
 	android:name
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:228:13-58
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:228:13-58
 uses-sdk
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-MERGED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
-MERGED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
-MERGED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
-MERGED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
-MERGED from [com.google.android.material:material:1.3.0] /home/marlin/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.3.0] /home/marlin/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/marlin/.gradle/caches/transforms-3/8b30691de29258138bfe89e8c1233093/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/marlin/.gradle/caches/transforms-3/8b30691de29258138bfe89e8c1233093/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/marlin/.gradle/caches/transforms-3/4803c9f47a5ee07db499a4669aec6bc2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/marlin/.gradle/caches/transforms-3/4803c9f47a5ee07db499a4669aec6bc2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/marlin/.gradle/caches/transforms-3/c693848ffe90ffc3e7b2d0b291e90d61/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/marlin/.gradle/caches/transforms-3/c693848ffe90ffc3e7b2d0b291e90d61/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/marlin/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/marlin/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/marlin/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/marlin/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/marlin/.gradle/caches/transforms-3/7466fc56941c96b8ee8dd384f5c0702e/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/marlin/.gradle/caches/transforms-3/7466fc56941c96b8ee8dd384f5c0702e/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/marlin/.gradle/caches/transforms-3/4606c96e37af80b51faebb160f698a94/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/marlin/.gradle/caches/transforms-3/4606c96e37af80b51faebb160f698a94/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/marlin/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/marlin/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/marlin/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/marlin/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/marlin/.gradle/caches/transforms-3/e1e810401e567527ed4e39d78b3d74c3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/marlin/.gradle/caches/transforms-3/e1e810401e567527ed4e39d78b3d74c3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/marlin/.gradle/caches/transforms-3/c4a4f8682933b282a0a4a4ffe6c98dcb/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/marlin/.gradle/caches/transforms-3/c4a4f8682933b282a0a4a4ffe6c98dcb/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/marlin/.gradle/caches/transforms-3/2c34b3853570e6f989aae4bcc2dab30f/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/marlin/.gradle/caches/transforms-3/2c34b3853570e6f989aae4bcc2dab30f/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/marlin/.gradle/caches/transforms-3/80df44330c294f717b87d319df30e0d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/marlin/.gradle/caches/transforms-3/80df44330c294f717b87d319df30e0d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/marlin/.gradle/caches/transforms-3/19c0e85733cb243023c82c8167d7be7b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/marlin/.gradle/caches/transforms-3/19c0e85733cb243023c82c8167d7be7b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/marlin/.gradle/caches/transforms-3/dab84db5777d4ddba1e26e3431197893/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/marlin/.gradle/caches/transforms-3/dab84db5777d4ddba1e26e3431197893/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/marlin/.gradle/caches/transforms-3/d38c3f32ef30ad389d80bd3fd5f7c4d8/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/marlin/.gradle/caches/transforms-3/d38c3f32ef30ad389d80bd3fd5f7c4d8/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /home/marlin/.gradle/caches/transforms-3/b791b777e11362a5acf515da091772d4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/marlin/.gradle/caches/transforms-3/b791b777e11362a5acf515da091772d4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/marlin/.gradle/caches/transforms-3/1636e41786bbc402c4a0fdb0a5e6a085/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/marlin/.gradle/caches/transforms-3/1636e41786bbc402c4a0fdb0a5e6a085/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/marlin/.gradle/caches/transforms-3/e8efad4fbb6f30efef491d307f14f32f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/marlin/.gradle/caches/transforms-3/e8efad4fbb6f30efef491d307f14f32f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/marlin/.gradle/caches/transforms-3/ff08dfde34e347ee9a36b2f0d23c0808/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/marlin/.gradle/caches/transforms-3/ff08dfde34e347ee9a36b2f0d23c0808/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/marlin/.gradle/caches/transforms-3/33d45d24ad1182df9c00b66496dba263/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/marlin/.gradle/caches/transforms-3/33d45d24ad1182df9c00b66496dba263/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/marlin/.gradle/caches/transforms-3/02a5b6428b35b1ff166410959a154a36/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/marlin/.gradle/caches/transforms-3/02a5b6428b35b1ff166410959a154a36/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /home/marlin/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/marlin/.gradle/caches/transforms-3/66528367322262f4bf4275b6116536f2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/marlin/.gradle/caches/transforms-3/66528367322262f4bf4275b6116536f2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/marlin/.gradle/caches/transforms-3/599f33e06bbb86a39d2bfc948c5fa73c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/marlin/.gradle/caches/transforms-3/599f33e06bbb86a39d2bfc948c5fa73c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/marlin/.gradle/caches/transforms-3/b1739771768736faaceffab8bdb63643/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/marlin/.gradle/caches/transforms-3/b1739771768736faaceffab8bdb63643/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/marlin/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/marlin/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/marlin/.gradle/caches/transforms-3/c1314e7353ff5b1087485bc68d2ab550/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/marlin/.gradle/caches/transforms-3/c1314e7353ff5b1087485bc68d2ab550/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/marlin/.gradle/caches/transforms-3/284c0bd0b4ac5d6874c95a16bee75bd1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/marlin/.gradle/caches/transforms-3/284c0bd0b4ac5d6874c95a16bee75bd1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/marlin/.gradle/caches/transforms-3/ffb1955d01e32e98fb05147f4ee305d7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/marlin/.gradle/caches/transforms-3/ffb1955d01e32e98fb05147f4ee305d7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/marlin/.gradle/caches/transforms-3/90a7a8931e01a0ee699ea84f1eec69e2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/marlin/.gradle/caches/transforms-3/90a7a8931e01a0ee699ea84f1eec69e2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/marlin/.gradle/caches/transforms-3/2b33b9b821575937f499710a4b2dfe94/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/marlin/.gradle/caches/transforms-3/2b33b9b821575937f499710a4b2dfe94/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/marlin/.gradle/caches/transforms-3/1cecee935e01d857a041e241f28ddaec/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/marlin/.gradle/caches/transforms-3/1cecee935e01d857a041e241f28ddaec/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/marlin/.gradle/caches/transforms-3/c7c20cceb6b003f2066890739eea01c5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/marlin/.gradle/caches/transforms-3/c7c20cceb6b003f2066890739eea01c5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/marlin/.gradle/caches/transforms-3/7701400bc34fc9efa0daa502575f45b4/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/marlin/.gradle/caches/transforms-3/7701400bc34fc9efa0daa502575f45b4/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/marlin/.gradle/caches/transforms-3/44429aa97ad9eec0aa929116bb6f47eb/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/marlin/.gradle/caches/transforms-3/44429aa97ad9eec0aa929116bb6f47eb/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+MERGED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
+MERGED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
+MERGED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
+MERGED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-41:41
+MERGED from [com.google.android.material:material:1.3.0] /home/oldrich/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/oldrich/.gradle/caches/transforms-3/2b62ee9c9875fc3fcf97a1ed594fc4e7/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/oldrich/.gradle/caches/transforms-3/8b30691de29258138bfe89e8c1233093/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/oldrich/.gradle/caches/transforms-3/8b30691de29258138bfe89e8c1233093/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/oldrich/.gradle/caches/transforms-3/4803c9f47a5ee07db499a4669aec6bc2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/oldrich/.gradle/caches/transforms-3/4803c9f47a5ee07db499a4669aec6bc2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/oldrich/.gradle/caches/transforms-3/c693848ffe90ffc3e7b2d0b291e90d61/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/oldrich/.gradle/caches/transforms-3/c693848ffe90ffc3e7b2d0b291e90d61/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/oldrich/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/oldrich/.gradle/caches/transforms-3/8028db462244645aedc38643581e3d24/transformed/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/oldrich/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/oldrich/.gradle/caches/transforms-3/e18f2e24408b3ae757e1c417a69fe87e/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/oldrich/.gradle/caches/transforms-3/7466fc56941c96b8ee8dd384f5c0702e/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/oldrich/.gradle/caches/transforms-3/7466fc56941c96b8ee8dd384f5c0702e/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/oldrich/.gradle/caches/transforms-3/4606c96e37af80b51faebb160f698a94/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/oldrich/.gradle/caches/transforms-3/4606c96e37af80b51faebb160f698a94/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/oldrich/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/oldrich/.gradle/caches/transforms-3/c3aeef54ba0e043ea78ad06ecba38f02/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/oldrich/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/oldrich/.gradle/caches/transforms-3/175efeaa96a63210e6c3fd866ded6ed9/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/oldrich/.gradle/caches/transforms-3/e1e810401e567527ed4e39d78b3d74c3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/oldrich/.gradle/caches/transforms-3/e1e810401e567527ed4e39d78b3d74c3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/oldrich/.gradle/caches/transforms-3/c4a4f8682933b282a0a4a4ffe6c98dcb/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/oldrich/.gradle/caches/transforms-3/c4a4f8682933b282a0a4a4ffe6c98dcb/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/oldrich/.gradle/caches/transforms-3/2c34b3853570e6f989aae4bcc2dab30f/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/oldrich/.gradle/caches/transforms-3/2c34b3853570e6f989aae4bcc2dab30f/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/oldrich/.gradle/caches/transforms-3/80df44330c294f717b87d319df30e0d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/oldrich/.gradle/caches/transforms-3/80df44330c294f717b87d319df30e0d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/19c0e85733cb243023c82c8167d7be7b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/19c0e85733cb243023c82c8167d7be7b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/oldrich/.gradle/caches/transforms-3/dab84db5777d4ddba1e26e3431197893/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/oldrich/.gradle/caches/transforms-3/dab84db5777d4ddba1e26e3431197893/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/oldrich/.gradle/caches/transforms-3/d38c3f32ef30ad389d80bd3fd5f7c4d8/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/oldrich/.gradle/caches/transforms-3/d38c3f32ef30ad389d80bd3fd5f7c4d8/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/oldrich/.gradle/caches/transforms-3/b791b777e11362a5acf515da091772d4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/oldrich/.gradle/caches/transforms-3/b791b777e11362a5acf515da091772d4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/oldrich/.gradle/caches/transforms-3/1636e41786bbc402c4a0fdb0a5e6a085/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/oldrich/.gradle/caches/transforms-3/1636e41786bbc402c4a0fdb0a5e6a085/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/oldrich/.gradle/caches/transforms-3/e8efad4fbb6f30efef491d307f14f32f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/oldrich/.gradle/caches/transforms-3/e8efad4fbb6f30efef491d307f14f32f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/oldrich/.gradle/caches/transforms-3/ff08dfde34e347ee9a36b2f0d23c0808/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/oldrich/.gradle/caches/transforms-3/ff08dfde34e347ee9a36b2f0d23c0808/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/oldrich/.gradle/caches/transforms-3/33d45d24ad1182df9c00b66496dba263/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/oldrich/.gradle/caches/transforms-3/33d45d24ad1182df9c00b66496dba263/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/oldrich/.gradle/caches/transforms-3/02a5b6428b35b1ff166410959a154a36/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/oldrich/.gradle/caches/transforms-3/02a5b6428b35b1ff166410959a154a36/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/oldrich/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/oldrich/.gradle/caches/transforms-3/052141a2aca6729add875932a21b95ec/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/oldrich/.gradle/caches/transforms-3/66528367322262f4bf4275b6116536f2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/oldrich/.gradle/caches/transforms-3/66528367322262f4bf4275b6116536f2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/oldrich/.gradle/caches/transforms-3/599f33e06bbb86a39d2bfc948c5fa73c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/oldrich/.gradle/caches/transforms-3/599f33e06bbb86a39d2bfc948c5fa73c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/oldrich/.gradle/caches/transforms-3/b1739771768736faaceffab8bdb63643/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/oldrich/.gradle/caches/transforms-3/b1739771768736faaceffab8bdb63643/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/oldrich/.gradle/caches/transforms-3/adfe31b16e14899b325672a81aa0ed18/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/oldrich/.gradle/caches/transforms-3/c1314e7353ff5b1087485bc68d2ab550/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/oldrich/.gradle/caches/transforms-3/c1314e7353ff5b1087485bc68d2ab550/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/oldrich/.gradle/caches/transforms-3/284c0bd0b4ac5d6874c95a16bee75bd1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/oldrich/.gradle/caches/transforms-3/284c0bd0b4ac5d6874c95a16bee75bd1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/oldrich/.gradle/caches/transforms-3/ffb1955d01e32e98fb05147f4ee305d7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/oldrich/.gradle/caches/transforms-3/ffb1955d01e32e98fb05147f4ee305d7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/oldrich/.gradle/caches/transforms-3/90a7a8931e01a0ee699ea84f1eec69e2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/oldrich/.gradle/caches/transforms-3/90a7a8931e01a0ee699ea84f1eec69e2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/oldrich/.gradle/caches/transforms-3/2b33b9b821575937f499710a4b2dfe94/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/oldrich/.gradle/caches/transforms-3/2b33b9b821575937f499710a4b2dfe94/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/oldrich/.gradle/caches/transforms-3/1cecee935e01d857a041e241f28ddaec/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/oldrich/.gradle/caches/transforms-3/1cecee935e01d857a041e241f28ddaec/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/oldrich/.gradle/caches/transforms-3/c7c20cceb6b003f2066890739eea01c5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/oldrich/.gradle/caches/transforms-3/c7c20cceb6b003f2066890739eea01c5/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/oldrich/.gradle/caches/transforms-3/7701400bc34fc9efa0daa502575f45b4/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/oldrich/.gradle/caches/transforms-3/7701400bc34fc9efa0daa502575f45b4/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/oldrich/.gradle/caches/transforms-3/44429aa97ad9eec0aa929116bb6f47eb/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/oldrich/.gradle/caches/transforms-3/44429aa97ad9eec0aa929116bb6f47eb/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		ADDED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
-		INJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		ADDED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
+		INJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+ADDED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:43:22-64
+		ADDED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:43:22-64
 meta-data#com.parrot.drone.groundsdk.engine.arsdkengine
-ADDED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-50:82
+ADDED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-50:82
 	android:value
-		ADDED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-79
+		ADDED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-79
 	android:name
-		ADDED from [:arsdkengine] /home/marlin/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-73
+		ADDED from [:arsdkengine] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/arsdkengine/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-73
 uses-feature#android.hardware.sensor.barometer
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-45:36
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-45:36
 	android:required
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-33
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-33
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-57
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-57
 uses-feature#android.hardware.location
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-48:36
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-48:36
 	android:required
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-33
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-33
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-49
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-49
 uses-feature#android.hardware.location.gps
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-51:36
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-51:36
 	android:required
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-33
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-33
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-53
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-53
 uses-feature#0x00030000
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:52:5-54:35
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:52:5-54:35
 	android:glEsVersion
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-41
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-41
 	android:required
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:54:9-32
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:54:9-32
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:56:5-79
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:56:5-79
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:56:22-76
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:56:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:57:5-79
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:47:5-79
-MERGED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:47:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:57:5-79
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:47:5-79
+MERGED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:47:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:57:22-76
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:57:22-76
 service#com.parrot.drone.groundsdk.internal.DumpSys$Service
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-87
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-87
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:60:18-84
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:60:18-84
 activity#com.parrot.drone.groundsdk.internal.RcAccessoryBootstrapActivity
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:62:9-74:20
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:62:9-74:20
 	android:enabled
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-81
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-81
 	android:launchMode
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-48
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-48
 	android:theme
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-59
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-59
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-92
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-92
 intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-69:29
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-69:29
 action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:68:17-93
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:68:17-93
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:68:25-90
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:68:25-90
 meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-73:62
+ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-73:62
 	android:resource
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:73:17-59
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:73:17-59
 	android:name
-		ADDED from [:groundsdk] /home/marlin/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:72:17-82
+		ADDED from [:groundsdk] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/groundsdk/intermediates/library_manifest/debug/AndroidManifest.xml:72:17-82
 uses-permission#android.permission.BLUETOOTH
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:44:5-68
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:44:5-68
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:44:22-65
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:44:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-74
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-74
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:45:22-71
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:45:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-81
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-81
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:46:22-78
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:46:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:48:5-76
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:48:5-76
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:48:22-73
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:48:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-68
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-68
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:49:22-65
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:49:22-65
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:50:5-86
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:50:5-86
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:50:22-83
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:50:22-83
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:51:5-81
+ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:51:5-81
 	android:name
-		ADDED from [:sdkcore] /home/marlin/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:51:22-78
+		ADDED from [:sdkcore] /home/oldrich/Documents/groundsdk/out/groundsdk-android/gradle/sdkcore/intermediates/library_manifest/debug/AndroidManifest.xml:51:22-78
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
-REJECTED from /home/marlin/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+REJECTED from /home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdkdemo/src/main/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/marlin/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/oldrich/.gradle/caches/transforms-3/9303c639f74202c060fc28bb00de3416/transformed/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b701a848b714a8ead9dcab35570d1b1/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/marlin/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/oldrich/.gradle/caches/transforms-3/5b32070ffc7314d78d0d720d61e0d1b3/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

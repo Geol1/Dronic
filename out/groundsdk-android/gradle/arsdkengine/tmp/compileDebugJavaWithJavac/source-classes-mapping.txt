@@ -106,12 +106,6 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/WhiteBalanceModeA
 com/parrot/drone/groundsdk/arsdkengine/http/InputStreamRequestBody.java
  com.parrot.drone.groundsdk.arsdkengine.http.InputStreamRequestBody
  com.parrot.drone.groundsdk.arsdkengine.http.InputStreamRequestBody$1
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/FileFormatAdapter.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FileFormatAdapter
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FileFormatAdapter$1
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/FramerateAdapter.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FramerateAdapter
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FramerateAdapter$1
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/wifi/AnafiWifiAccessPoint.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.wifi.AnafiWifiAccessPoint
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.wifi.AnafiWifiAccessPoint$1
@@ -119,6 +113,12 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/wifi/AnafiWifiAccessPoin
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.wifi.AnafiWifiAccessPoint$3
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.wifi.AnafiWifiAccessPoint$4
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.wifi.AnafiWifiAccessPoint$5
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/FileFormatAdapter.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FileFormatAdapter
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FileFormatAdapter$1
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/FramerateAdapter.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FramerateAdapter
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.FramerateAdapter$1
 com/parrot/drone/groundsdk/arsdkengine/instrument/skycontroller/SkyControllerCompass.java
  com.parrot.drone.groundsdk.arsdkengine.instrument.skycontroller.SkyControllerCompass
  com.parrot.drone.groundsdk.arsdkengine.instrument.skycontroller.SkyControllerCompass$1
@@ -140,16 +140,16 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiMagnetometer.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMagnetometer$1
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMagnetometer$2
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMagnetometer$3
-com/parrot/drone/groundsdk/arsdkengine/pilotingitf/PilotingCommand.java
- com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand
- com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand$1
- com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand$Encoder
- com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand$Encoder$Anafi
 com/parrot/drone/groundsdk/arsdkengine/Arsdk.java
  com.parrot.drone.groundsdk.arsdkengine.Arsdk
  com.parrot.drone.groundsdk.arsdkengine.Arsdk$1
  com.parrot.drone.groundsdk.arsdkengine.Arsdk$DeviceCtrlBackend
  com.parrot.drone.groundsdk.arsdkengine.Arsdk$LocalDeviceProvider
+com/parrot/drone/groundsdk/arsdkengine/pilotingitf/PilotingCommand.java
+ com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand
+ com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand$1
+ com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand$Encoder
+ com.parrot.drone.groundsdk.arsdkengine.pilotingitf.PilotingCommand$Encoder$Anafi
 com/parrot/drone/groundsdk/arsdkengine/devicecontroller/DroneController.java
  com.parrot.drone.groundsdk.arsdkengine.devicecontroller.DroneController
  com.parrot.drone.groundsdk.arsdkengine.devicecontroller.DroneController$1
@@ -166,13 +166,6 @@ com/parrot/drone/groundsdk/arsdkengine/pilotingitf/ActivablePilotingItfControlle
  com.parrot.drone.groundsdk.arsdkengine.pilotingitf.ActivablePilotingItfController
  com.parrot.drone.groundsdk.arsdkengine.pilotingitf.ActivablePilotingItfController$Backend
  com.parrot.drone.groundsdk.arsdkengine.pilotingitf.ActivablePilotingItfController$Factory
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiMotors.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$1
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$2
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$ErrorAdapter
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$MotorAdapter
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$MotorAdapter$ArsdkMask
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiDri.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiDri
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiDri$1
@@ -182,6 +175,13 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiDri.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiDri$DriTypeAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiDri$IdStorageEntry
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiDri$TypeConfigStorageEntry
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiMotors.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$1
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$2
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$ErrorAdapter
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$MotorAdapter
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiMotors$MotorAdapter$ArsdkMask
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/media/PanoramaTypeAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.media.PanoramaTypeAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.media.PanoramaTypeAdapter$1
@@ -215,12 +215,12 @@ com/parrot/drone/groundsdk/arsdkengine/instrument/anafi/AnafiPhotoProgressIndica
  com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiPhotoProgressIndicator
  com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiPhotoProgressIndicator$1
  com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiPhotoProgressIndicator$2
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/Model.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.Model
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.Model$1
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/ResolutionAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.ResolutionAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.ResolutionAdapter$1
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/Model.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.Model
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.Model$1
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/CameraModeAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.CameraModeAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.CameraModeAdapter$1
@@ -247,13 +247,13 @@ com/parrot/drone/groundsdk/arsdkengine/ArsdkProxy.java
  com.parrot.drone.groundsdk.arsdkengine.ArsdkProxy
  com.parrot.drone.groundsdk.arsdkengine.ArsdkProxy$1
  com.parrot.drone.groundsdk.arsdkengine.ArsdkProxy$ProxyDeviceProvider
+com/parrot/drone/groundsdk/arsdkengine/instrument/anafi/AnafiAltimeter.java
+ com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiAltimeter
+ com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiAltimeter$1
 com/parrot/drone/groundsdk/arsdkengine/http/HttpEphemerisClient.java
  com.parrot.drone.groundsdk.arsdkengine.http.HttpEphemerisClient
  com.parrot.drone.groundsdk.arsdkengine.http.HttpEphemerisClient$1
  com.parrot.drone.groundsdk.arsdkengine.http.HttpEphemerisClient$Service
-com/parrot/drone/groundsdk/arsdkengine/instrument/anafi/AnafiAltimeter.java
- com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiAltimeter
- com.parrot.drone.groundsdk.arsdkengine.instrument.anafi.AnafiAltimeter$1
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/CameraController.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.CameraController
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.CameraController$1
@@ -268,11 +268,11 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/skycontroller/gamepad/Sc3Gamep
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.gamepad.Sc3Gamepad$ButtonEvents
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.gamepad.Sc3Gamepad$InputMasks
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.gamepad.Sc3Gamepad$Translator
-com/parrot/drone/groundsdk/arsdkengine/http/HttpReportInfo.java
- com.parrot.drone.groundsdk.arsdkengine.http.HttpReportInfo
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/ZoomControlEncoder.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.ZoomControlEncoder
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.ZoomControlEncoder$CommandEncoder
+com/parrot/drone/groundsdk/arsdkengine/http/HttpReportInfo.java
+ com.parrot.drone.groundsdk.arsdkengine.http.HttpReportInfo
 com/parrot/drone/groundsdk/arsdkengine/http/HttpCertificateClient.java
  com.parrot.drone.groundsdk.arsdkengine.http.HttpCertificateClient
  com.parrot.drone.groundsdk.arsdkengine.http.HttpCertificateClient$1
@@ -280,11 +280,11 @@ com/parrot/drone/groundsdk/arsdkengine/http/HttpCertificateClient.java
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/PhotoModeAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.PhotoModeAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.PhotoModeAdapter$1
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/media/LocationAdapter.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.media.LocationAdapter
 com/parrot/drone/groundsdk/arsdkengine/devicecontroller/SkyControllerFamilyController.java
  com.parrot.drone.groundsdk.arsdkengine.devicecontroller.SkyControllerFamilyController
  com.parrot.drone.groundsdk.arsdkengine.devicecontroller.SkyControllerFamilyController$1
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/media/LocationAdapter.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.media.LocationAdapter
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/gimbal/GimbalControlCommandEncoder.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.gimbal.GimbalControlCommandEncoder
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.gimbal.GimbalControlCommandEncoder$1
@@ -335,11 +335,11 @@ com/parrot/drone/groundsdk/arsdkengine/ephemeris/EphemerisUploadProtocol.java
  com.parrot.drone.groundsdk.arsdkengine.ephemeris.EphemerisUploadProtocol$Callback
 com/parrot/drone/groundsdk/arsdkengine/persistence/Converter.java
  com.parrot.drone.groundsdk.arsdkengine.persistence.Converter
-com/parrot/drone/groundsdk/arsdkengine/peripheral/PeripheralController.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.PeripheralController
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/thermalcontrol/CalibrationModeAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.thermalcontrol.CalibrationModeAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.thermalcontrol.CalibrationModeAdapter$1
+com/parrot/drone/groundsdk/arsdkengine/peripheral/PeripheralController.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.PeripheralController
 com/parrot/drone/groundsdk/arsdkengine/pilotingitf/anafi/AnafiManualPilotingItf.java
  com.parrot.drone.groundsdk.arsdkengine.pilotingitf.anafi.AnafiManualPilotingItf
  com.parrot.drone.groundsdk.arsdkengine.pilotingitf.anafi.AnafiManualPilotingItf$1
@@ -349,12 +349,12 @@ com/parrot/drone/groundsdk/arsdkengine/pilotingitf/anafi/AnafiManualPilotingItf.
  com.parrot.drone.groundsdk.arsdkengine.pilotingitf.anafi.AnafiManualPilotingItf$Backend
 com/parrot/drone/groundsdk/arsdkengine/devicecontroller/DeviceComponentController.java
  com.parrot.drone.groundsdk.arsdkengine.devicecontroller.DeviceComponentController
+com/parrot/drone/groundsdk/arsdkengine/devicecontroller/PilotingItfActivationController.java
+ com.parrot.drone.groundsdk.arsdkengine.devicecontroller.PilotingItfActivationController
 com/parrot/drone/groundsdk/arsdkengine/http/HttpFlightPlanClient.java
  com.parrot.drone.groundsdk.arsdkengine.http.HttpFlightPlanClient
  com.parrot.drone.groundsdk.arsdkengine.http.HttpFlightPlanClient$1
  com.parrot.drone.groundsdk.arsdkengine.http.HttpFlightPlanClient$Service
-com/parrot/drone/groundsdk/arsdkengine/devicecontroller/PilotingItfActivationController.java
- com.parrot.drone.groundsdk.arsdkengine.devicecontroller.PilotingItfActivationController
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/PhotoCapabilitiesStorageEntry.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.PhotoCapabilitiesStorageEntry
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiLogControl.java
@@ -387,6 +387,13 @@ com/parrot/drone/groundsdk/arsdkengine/blackbox/data/FlightData.java
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.FlightData$Builder
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.FlightData$DronePilotingCommand
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.FlightData$SpeedInfo
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiGeofence.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence$1
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence$2
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence$3
+com/parrot/drone/groundsdk/arsdkengine/http/HttpPudInfo.java
+ com.parrot.drone.groundsdk.arsdkengine.http.HttpPudInfo
 com/parrot/drone/groundsdk/arsdkengine/http/HttpMediaClient.java
  com.parrot.drone.groundsdk.arsdkengine.http.HttpMediaClient
  com.parrot.drone.groundsdk.arsdkengine.http.HttpMediaClient$1
@@ -396,13 +403,6 @@ com/parrot/drone/groundsdk/arsdkengine/http/HttpMediaClient.java
  com.parrot.drone.groundsdk.arsdkengine.http.HttpMediaClient$5
  com.parrot.drone.groundsdk.arsdkengine.http.HttpMediaClient$Listener
  com.parrot.drone.groundsdk.arsdkengine.http.HttpMediaClient$Service
-com/parrot/drone/groundsdk/arsdkengine/http/HttpPudInfo.java
- com.parrot.drone.groundsdk.arsdkengine.http.HttpPudInfo
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiGeofence.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence$1
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence$2
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.AnafiGeofence$3
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/camera/RecordingModeAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.RecordingModeAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.camera.RecordingModeAdapter$1
@@ -606,15 +606,15 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/common/DebugDevToolbox.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.common.DebugDevToolbox$3
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/thermalcontrol/PaletteSettings.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.thermalcontrol.PaletteSettings
-com/parrot/drone/groundsdk/arsdkengine/peripheral/common/updater/DroneUpdaterController.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.common.updater.DroneUpdaterController
- com.parrot.drone.groundsdk.arsdkengine.peripheral.common.updater.DroneUpdaterController$1
- com.parrot.drone.groundsdk.arsdkengine.peripheral.common.updater.DroneUpdaterController$2
 com/parrot/drone/groundsdk/arsdkengine/peripheral/skycontroller/SkyControllerCopilot.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.SkyControllerCopilot
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.SkyControllerCopilot$1
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.SkyControllerCopilot$2
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.SkyControllerCopilot$3
+com/parrot/drone/groundsdk/arsdkengine/peripheral/common/updater/DroneUpdaterController.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.common.updater.DroneUpdaterController
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.common.updater.DroneUpdaterController$1
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.common.updater.DroneUpdaterController$2
 com/parrot/drone/groundsdk/arsdkengine/blackbox/data/TimeStampedData.java
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.TimeStampedData
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.TimeStampedData$TimeStampAdapter
@@ -655,9 +655,6 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/AnafiBatteryGaugeUpdater
 com/parrot/drone/groundsdk/arsdkengine/peripheral/skycontroller/SkyControllerSystemInfo.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.SkyControllerSystemInfo
  com.parrot.drone.groundsdk.arsdkengine.peripheral.skycontroller.SkyControllerSystemInfo$1
-com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/gimbal/GimbalAxisAdapter.java
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.gimbal.GimbalAxisAdapter
- com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.gimbal.GimbalAxisAdapter$1
 com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/flightdata/PudAdapter.java
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.flightdata.PudAdapter
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.flightdata.PudAdapter$1
@@ -665,6 +662,9 @@ com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/flightdata/PudAdapter.ja
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.flightdata.PudAdapter$ColumnDescriptor
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.flightdata.PudAdapter$ColumnDescriptor$Type
  com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.flightdata.PudAdapter$Location
+com/parrot/drone/groundsdk/arsdkengine/peripheral/anafi/gimbal/GimbalAxisAdapter.java
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.gimbal.GimbalAxisAdapter
+ com.parrot.drone.groundsdk.arsdkengine.peripheral.anafi.gimbal.GimbalAxisAdapter$1
 com/parrot/drone/groundsdk/arsdkengine/blackbox/data/EnvironmentData.java
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.EnvironmentData
  com.parrot.drone.groundsdk.arsdkengine.blackbox.data.EnvironmentData$1

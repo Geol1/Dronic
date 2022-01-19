@@ -41,67 +41,67 @@
 41        android:targetSdkVersion="29" />
 42
 43    <uses-feature
-43-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:40:5-42:35
+43-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:40:5-42:35
 44        android:name="android.hardware.sensor.barometer"
-44-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:41:9-57
+44-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:41:9-57
 45        android:required="false" />
-45-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:42:9-33
+45-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:42:9-33
 46    <uses-feature
-46-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:43:5-45:35
+46-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:43:5-45:35
 47        android:name="android.hardware.location"
-47-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:44:9-49
+47-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:44:9-49
 48        android:required="false" />
-48-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:45:9-33
+48-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:45:9-33
 49    <uses-feature
-49-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:46:5-48:35
+49-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:46:5-48:35
 50        android:name="android.hardware.location.gps"
-50-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:47:9-53
+50-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:47:9-53
 51        android:required="false" />
-51-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:48:9-33
+51-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:48:9-33
 52    <uses-feature
-52-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:49:5-51:34
+52-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:49:5-51:34
 53        android:glEsVersion="0x00030000"
-53-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:50:9-41
+53-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:50:9-41
 54        android:required="true" />
-54-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:51:9-32
+54-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:51:9-32
 55
 56    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-56-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:53:5-78
-56-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:53:22-76
+56-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:53:5-78
+56-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:53:22-76
 57    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-57-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:54:5-78
-57-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:54:22-76
+57-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:54:5-78
+57-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:54:22-76
 58
 59    <application tools:ignore="GoogleAppIndexingWarning" >
-59-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:56:5-70:19
-59-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:57:9-48
+59-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:56:5-70:19
+59-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:57:9-48
 60        <service android:name="com.parrot.drone.groundsdk.internal.DumpSys$Service" />
-60-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/debug/AndroidManifest.xml:39:9-86
-60-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/debug/AndroidManifest.xml:39:18-84
+60-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/debug/AndroidManifest.xml:39:9-86
+60-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/debug/AndroidManifest.xml:39:18-84
 61
 62        <activity
-62-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:58:9-69:20
+62-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:58:9-69:20
 63            android:name="com.parrot.drone.groundsdk.internal.RcAccessoryBootstrapActivity"
-63-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:59:13-66
+63-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:59:13-66
 64            android:enabled="@bool/gsdk_rc_accessory_bootstrap_activity_enabled"
-64-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:60:13-81
+64-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:60:13-81
 65            android:launchMode="singleInstance"
-65-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:61:13-48
+65-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:61:13-48
 66            android:theme="@android:style/Theme.NoDisplay" >
-66-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:62:13-59
+66-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:62:13-59
 67            <intent-filter>
-67-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:63:13-65:29
+67-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:63:13-65:29
 68                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
-68-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:64:17-92
-68-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:64:25-90
+68-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:64:17-92
+68-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:64:25-90
 69            </intent-filter>
 70
 71            <meta-data
-71-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:66:13-68:61
+71-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:66:13-68:61
 72                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
-72-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:67:17-82
+72-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:67:17-82
 73                android:resource="@xml/gsdk_usb_rc_filter" />
-73-->/home/marlin/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:68:17-59
+73-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/groundsdk/src/main/AndroidManifest.xml:68:17-59
 74        </activity>
 75    </application>
 76

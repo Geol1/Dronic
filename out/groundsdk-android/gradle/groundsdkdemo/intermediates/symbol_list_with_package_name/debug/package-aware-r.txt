@@ -1052,6 +1052,7 @@ color color_accent
 color color_calibration_line
 color color_primary
 color color_primary_dark
+color color_white
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled

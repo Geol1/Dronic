@@ -83,11 +83,6 @@ com/parrot/drone/sdkcore/arsdk/ArsdkFeatureThermal.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureThermal$SpotType
 com/parrot/drone/sdkcore/arsdk/device/ArsdkRequest.java
  com.parrot.drone.sdkcore.arsdk.device.ArsdkRequest
-com/parrot/drone/sdkcore/arsdk/ArsdkFeaturePreciseHome.java
- com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome
- com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome$Callback
- com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome$Mode
- com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome$State
 com/parrot/drone/sdkcore/arsdk/ArsdkFeatureUserStorage.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureUserStorage
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureUserStorage$Attribute
@@ -100,6 +95,11 @@ com/parrot/drone/sdkcore/arsdk/ArsdkFeatureUserStorage.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureUserStorage$PasswordResult
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureUserStorage$PasswordUsage
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureUserStorage$PhyState
+com/parrot/drone/sdkcore/arsdk/ArsdkFeaturePreciseHome.java
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome$Callback
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome$Mode
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePreciseHome$State
 com/parrot/drone/sdkcore/pomp/PompLoop.java
  com.parrot.drone.sdkcore.pomp.PompLoop
 com/parrot/drone/sdkcore/arsdk/ArsdkFeaturePilotingStyle.java
@@ -256,8 +256,6 @@ com/parrot/drone/sdkcore/arsdk/ArsdkFeatureLeds.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureLeds$Callback
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureLeds$SupportedCapabilities
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureLeds$SwitchState
-com/parrot/drone/sdkcore/arsdk/backend/net/mdnssdmin/MdnsSdOutgoingQuery.java
- com.parrot.drone.sdkcore.arsdk.backend.net.mdnssdmin.MdnsSdOutgoingQuery
 com/parrot/drone/sdkcore/arsdk/backend/mux/ArsdkDebugMuxBackendController.java
  com.parrot.drone.sdkcore.arsdk.backend.mux.ArsdkDebugMuxBackendController
  com.parrot.drone.sdkcore.arsdk.backend.mux.ArsdkDebugMuxBackendController$1
@@ -265,6 +263,8 @@ com/parrot/drone/sdkcore/arsdk/backend/mux/ArsdkDebugMuxBackendController.java
  com.parrot.drone.sdkcore.arsdk.backend.mux.ArsdkDebugMuxBackendController$Connection
  com.parrot.drone.sdkcore.arsdk.backend.mux.ArsdkDebugMuxBackendController$Connection$1
  com.parrot.drone.sdkcore.arsdk.backend.mux.ArsdkDebugMuxBackendController$Connection$2
+com/parrot/drone/sdkcore/arsdk/backend/net/mdnssdmin/MdnsSdOutgoingQuery.java
+ com.parrot.drone.sdkcore.arsdk.backend.net.mdnssdmin.MdnsSdOutgoingQuery
 com/parrot/drone/sdkcore/arsdk/ArsdkFeatureGimbal.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGimbal
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGimbal$Axis
@@ -790,6 +790,31 @@ com/parrot/drone/sdkcore/arsdk/ArsdkFeatureArdrone3.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureArdrone3$SpeedSettings
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureArdrone3$SpeedSettingsState
  com.parrot.drone.sdkcore.arsdk.ArsdkFeatureArdrone3$SpeedSettingsState$Callback
+com/parrot/drone/sdkcore/arsdk/ArsdkFeatureGaugeFwUpdater.java
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Callback
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Diag
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Requirements
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Result
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$State
+com/parrot/drone/sdkcore/arsdk/ArsdkFeatureAnimation.java
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$Callback
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$CandleConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$DollySlideConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$DronieConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$FlipType
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$HorizontalPanoramaConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$HorizontalRevealConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$ParabolaConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$PlayMode
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$SpiralConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$State
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$TwistUpConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$Type
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$VerticalRevealConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$VertigoConfigParam
+ com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$VertigoFinishAction
 com/parrot/drone/sdkcore/arsdk/ArsdkFeaturePowerup.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePowerup
  com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePowerup$MediaRecord
@@ -843,31 +868,6 @@ com/parrot/drone/sdkcore/arsdk/ArsdkFeaturePowerup.java
  com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePowerup$VideoSettingsState$Callback
  com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePowerup$VideosettingsVideomodeMode
  com.parrot.drone.sdkcore.arsdk.ArsdkFeaturePowerup$VideosettingsstateVideomodechangedMode
-com/parrot/drone/sdkcore/arsdk/ArsdkFeatureGaugeFwUpdater.java
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Callback
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Diag
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Requirements
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$Result
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureGaugeFwUpdater$State
-com/parrot/drone/sdkcore/arsdk/ArsdkFeatureAnimation.java
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$Callback
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$CandleConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$DollySlideConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$DronieConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$FlipType
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$HorizontalPanoramaConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$HorizontalRevealConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$ParabolaConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$PlayMode
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$SpiralConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$State
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$TwistUpConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$Type
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$VerticalRevealConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$VertigoConfigParam
- com.parrot.drone.sdkcore.arsdk.ArsdkFeatureAnimation$VertigoFinishAction
 com/parrot/drone/sdkcore/arsdk/backend/ble/ArsdkBleBackendController.java
  com.parrot.drone.sdkcore.arsdk.backend.ble.ArsdkBleBackendController
  com.parrot.drone.sdkcore.arsdk.backend.ble.ArsdkBleBackendController$1

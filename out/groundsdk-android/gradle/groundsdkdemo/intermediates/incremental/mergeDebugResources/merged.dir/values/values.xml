@@ -486,6 +486,7 @@
     <color name="color_calibration_line">#FF0000</color>
     <color name="color_primary">#3F51B5</color>
     <color name="color_primary_dark">#303F9F</color>
+    <color name="color_white">#aaaaaa</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>

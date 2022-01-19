@@ -28,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/groundsdk-android" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,5 +52,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1642512361007">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.800.600@67.27.1299.741" timestamp="1642512361007" />
+    <state x="567" y="296" width="298" height="260" key="Github.ShareDialog" timestamp="1642509086103">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="567" y="296" width="298" height="260" key="Github.ShareDialog/67.27.1299.741/1366.0.800.600@67.27.1299.741" timestamp="1642509086103" />
+    <state x="215" y="66" width="560" height="626" key="Github.UntrackedFilesDialog" timestamp="1642509107227">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="215" y="66" width="560" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741/1366.0.800.600@67.27.1299.741" timestamp="1642509107227" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1642508921946">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741/1366.0.800.600@67.27.1299.741" timestamp="1642508921946" />
+    <state x="116" y="101" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1642508967302">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="116" y="101" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741/1366.0.800.600@67.27.1299.741" timestamp="1642508967302" />
+    <state x="215" y="142" width="771" height="207" key="git4idea.ui.GitResetDialog" timestamp="1642508999906">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="215" y="142" width="771" height="207" key="git4idea.ui.GitResetDialog/67.27.1299.741/1366.0.800.600@67.27.1299.741" timestamp="1642508999906" />
   </component>
 </project>

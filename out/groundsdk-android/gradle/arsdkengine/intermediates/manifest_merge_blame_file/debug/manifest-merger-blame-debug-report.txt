@@ -38,26 +38,26 @@
 38
 39    <uses-sdk
 40        android:minSdkVersion="24"
-40-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml
+40-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml
 41        android:targetSdkVersion="29" />
-41-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml
+41-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml
 42
 43    <uses-permission android:name="android.permission.INTERNET" />
-43-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:40:5-66
-43-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:40:22-64
+43-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:40:5-66
+43-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:40:22-64
 44
 45    <application
-45-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:42:5-48:19
+45-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:42:5-48:19
 46        android:networkSecurityConfig="@xml/network_security_config"
-46-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:43:9-69
+46-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:43:9-69
 47        tools:targetApi="24" >
-47-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:44:9-29
+47-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:44:9-29
 48        <meta-data
-48-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:45:9-47:81
+48-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:45:9-47:81
 49            android:name="com.parrot.drone.groundsdk.engine.arsdkengine"
-49-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:46:13-73
+49-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:46:13-73
 50            android:value="com.parrot.drone.groundsdk.arsdkengine.ArsdkEngine" />
-50-->/home/marlin/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:47:13-79
+50-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/arsdkengine/src/main/AndroidManifest.xml:47:13-79
 51    </application>
 52
 53</manifest>

@@ -38,40 +38,40 @@
 38
 39    <uses-sdk
 40        android:minSdkVersion="24"
-40-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml
+40-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml
 41        android:targetSdkVersion="29" />
-41-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml
+41-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml
 42
 43    <uses-permission android:name="android.permission.INTERNET" />
-43-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:40:5-66
-43-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:40:22-64
+43-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:40:5-66
+43-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:40:22-64
 44    <uses-permission android:name="android.permission.BLUETOOTH" />
-44-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:41:5-67
-44-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:41:22-65
+44-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:41:5-67
+44-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:41:22-65
 45    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-45-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:42:5-73
-45-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:42:22-71
+45-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:42:5-73
+45-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:42:22-71
 46    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-46-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:43:5-80
-46-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:43:22-78
+46-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:43:5-80
+46-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:43:22-78
 47    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-47-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:44:5-78
-47-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:44:22-76
+47-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:44:5-78
+47-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:44:22-76
 48    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-48-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:45:5-75
-48-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:45:22-73
+48-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:45:5-75
+48-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:45:22-73
 49    <uses-permission android:name="android.permission.WAKE_LOCK" />
-49-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:46:5-67
-49-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:46:22-65
+49-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:46:5-67
+49-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:46:22-65
 50    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-50-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:47:5-85
-50-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:47:22-83
+50-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:47:5-85
+50-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:47:22-83
 51    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-51-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:48:5-80
-51-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:48:22-78
+51-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:48:5-80
+51-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:48:22-78
 52
 53    <application tools:ignore="GoogleAppIndexingWarning" />
-53-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:50:5-59
-53-->/home/marlin/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:50:18-57
+53-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:50:5-59
+53-->/home/oldrich/Documents/groundsdk/packages/groundsdk-android/sdkcore/src/main/AndroidManifest.xml:50:18-57
 54
 55</manifest>
